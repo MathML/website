@@ -1,0 +1,12 @@
+# Site settings
+title: MathML Association
+email: directors@mathml-association.org
+description:
+  Charitable organization for the adoption of MathML.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://mathml-association.com" # the base hostname & protocol for your site
+twitter_username: mathml3
+github_username:  mathml
+
+# Build settings
+markdown: kramdown
