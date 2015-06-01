@@ -26,20 +26,43 @@
 
 .site-nav {
     line-height: 56px;
+    display:table;
+    margin:0 auto;
 
     .menu-icon {
         display: none;
     }
 
-    .page-link {
-        color: white;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
+    ul {
+        padding: 0;
+        list-style: none;
     }
+    ul li {
+        display: block;
+        position: relative;
+        float: left;
+    }
+    li ul {
+        display: none;
+        margin-left: 0;
+    }
+    ul li a {
+        display: block;
+        text-decoration: none;
+        padding: 5px 15px 5px 15px;
+        margin-left: 1px;
+        color: white;
+    }
+    ul li a:hover { background: #010135; }
+    li:hover ul {
+        display: block;
+        position: absolute;
+    }
+    li:hover li {
+        float: none;
+    }
+    li:hover a { background: #010135; }
+    li:hover li a:hover { background: #010135; }
 
     @include media-query($on-palm) {
         position: absolute;
@@ -74,6 +97,23 @@
             display: none;
         }
 
+        li ul {
+            display: block;
+        }
+        ul li {
+            display: block;
+            position: relative;
+            float: none;
+        }
+        ul li a {
+            display: block;
+            text-decoration: none;
+            padding: 5px 15px 5px 15px;
+            margin-left: 1px;
+            color: #010135;
+        }
+        ul li a:hover { color: white; }
+
         &:hover .trigger {
             display: block;
             padding-bottom: 5px;
@@ -107,6 +147,11 @@
     margin-left: 0;
 }
 
+.contact-list img,
+.social-media-list img {
+    height: 15px;
+}
+
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
@@ -121,18 +166,13 @@
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(40% - (#{$spacing-unit} / 2));
+    width:         calc(40% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
