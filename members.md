@@ -3,12 +3,12 @@ layout: page
 title: Members
 members:
 - name: Raniere Silva
-  description: About me
-  role: Role
+  description: MathML enthusiastic and interested in MathML native support in web browsers and EPUB reader.
+  roles: ["Monthly Meeting Host"]
   photo: img/members/silva.raniere.jpg
 - name: Frédéric Wang
   description: About me
-  role: Member
+  roles: ["2015 Directors Board Member", "Gecko Developer"]
 ---
 
 ## Became a member
@@ -25,8 +25,10 @@ members:
 <div class="member-info">
 <p><strong>{{member.name}}</strong></p>
 <p>{{member.description}}</p>
-{% if member.role %}
-<p><strong>Role:</strong> {{member.role}}</p>
+{% if member.roles %}
+<p><strong>Role:</strong>
+{{ member.roles | join: ', ' }}
+</p>
 {% endif %}
 </div>
 </div>

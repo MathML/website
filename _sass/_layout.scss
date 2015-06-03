@@ -312,4 +312,6 @@
 .member-info {
   float: left;
   margin: 5px;
+  max-width: -webkit-calc(100% - 150px);
+  max-width:         calc(100% - 150px);
 }
