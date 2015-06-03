@@ -53,7 +53,10 @@
         margin-left: 1px;
         color: white;
     }
-    ul li a:hover { background: #010135; }
+    ul li a:hover {
+        background: white;
+        color: #010135;
+    }
     li:hover ul {
         display: block;
         position: absolute;
@@ -62,7 +65,7 @@
         float: none;
     }
     li:hover a { background: #010135; }
-    li:hover li a:hover { background: #010135; }
+    li:hover li a:hover { background: white; }
 
     @include media-query($on-palm) {
         position: absolute;
@@ -97,6 +100,9 @@
             display: none;
         }
 
+        ul {
+            margin-left: 0;
+        }
         li ul {
             display: block;
         }
@@ -112,7 +118,22 @@
             margin-left: 1px;
             color: #010135;
         }
-        ul li a:hover { color: white; }
+        li:hover a:hover {
+            background-color: #010135;
+            color: white;
+        }
+        li:hover ul {
+            display: block;
+            position: relative;
+        }
+        li:hover li {
+            float: none;
+        }
+        li:hover a { background: white; }
+        li:hover li a:hover {
+            background-color: #010135;
+            color: white;
+        }
 
         &:hover .trigger {
             display: block;
