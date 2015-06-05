@@ -15,8 +15,8 @@
           {% if site.email %}
           <li>
             <a href="mailto:{{ site.email }}">
-              <span class="icon  icon--github">
-                <img src="img/email-48x48.png">
+              <span class="icon">
+                {% include email-icon.html %}
               </span>
               <span class="username">{{ site.email }}</span>
             </a>
@@ -25,8 +25,8 @@
           {% if site.github_username %}
           <li>
             <a href="https://github.com/{{ site.github_username }}">
-              <span class="icon  icon--github">
-                <img src="img/github-48x48.png">
+              <span class="icon">
+                {% include github-icon.html %}
               </span>
 
               <span class="username">{{ site.github_username }}</span>
@@ -37,8 +37,8 @@
           {% if site.twitter_username %}
           <li>
             <a href="https://twitter.com/{{ site.twitter_username }}">
-              <span class="icon  icon--twitter">
-                <img src="img/twitter-48x48.png">
+              <span class="icon">
+                {% include twitter-icon.html %}
               </span>
 
               <span class="username">{{ site.twitter_username }}</span>
