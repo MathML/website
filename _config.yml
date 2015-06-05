@@ -1,8 +1,7 @@
 # Site settings
 title: MathML Association
 email: directors@mathml-association.org
-description:
-  An charitable organization for the adoption of MathML.
+description: A math group acting on the Web
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://mathml-association.com" # the base hostname & protocol for your site
 twitter_username: mathml3
@@ -20,10 +19,12 @@ header:
   - title: About us
     url: /about.html
     sub:
-      - title: Statutes
-        url: /statutes.html
       - title: Directors
         url: /directors.html
+      - title: Bylaws
+        url: /non-profit-corporate-by-laws.html
+      - title: COIP
+        url: conflict-of-interest-policy.html
       - title: FAQ
         url: /faq.html
   - title: Donate
