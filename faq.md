@@ -34,7 +34,7 @@ an implemention of "Office MathML" exists in Microsoft Office and could be
 used for Trident. Hence we would like to convince Microsoft to give a this a
 try.
 
-**Where can I vote for MathML support in Chrome and Internet Explorer**
+**Where can I vote for MathML support in Chrome and Internet Explorer?**
 
 Try [here](link to code google com) and [here](link to status modern ie).
 

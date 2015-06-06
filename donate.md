@@ -3,6 +3,5 @@ layout: page
 title: Donate
 ---
 
-**Donate**
-
-- paypal, credit card?
+Please send a email to {{site.email}}
+for more information.
