@@ -755,7 +755,7 @@ filed with the IRS.
 (a) All board deliberations shall be open to the public except where the board
     passes a motion to make any specific portion confidential.
 
-(b) All board minutes shall be open to the public once accepted by the board,
+(b) All board minutes shall be open to the public one week after the meeting,
     except where the board passes a motion to make any specific portion
     confidential.
 
