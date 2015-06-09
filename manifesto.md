@@ -5,6 +5,19 @@ title: The MathML Manifesto
 
 ## Warning: this is a draft.
 
+#### 0) Preamble
+
+Mathematics is the foundation of modern science, technology, and engineering. Mathematical
+knowledge is complex in structure, rich in presentation, and supported by a globally
+accepted writing system subject to local notational preferences. Mathematical
+communication is well-supported in conventional publishing, but *communication of
+mathematics on the web does not make use of the inherent structure* of mathematical
+knowledge in general and mathematical formulae in particular.
+
+Hence we, mathematical practitiners, educators, tool developers, and MathML enthusiasts
+postulate the following agenda for supporting mathematics more fully on the Web and thus
+*bringing the communication of mathematical knowledge to the new millennium*.
+
 #### 1) Mathematical Language
 
 *Mathematical language* is fundamental for scientific, technical, and educational
@@ -19,9 +32,9 @@ are necessary, they must be conducted in a *public standardization process*.
 
 #### 3) Mathematical Formulae
 
-Modern mathematical language relies on *mathematical formulae*, highly structured
-expressions composed of previously introduced identifiers that are presented in a
-conventionalized sesquidimensional notation.
+Modern mathematical language relies on *mathematical formulae*, highly structured and
+condensed expressions composed of previously introduced identifiers that are presented in
+a conventionalized non-linear notation.
 
 #### 4) MathML: Mathematical Markup Language 
 
@@ -87,3 +100,6 @@ mathematical content should also guarantee these features to their users.
 
 Authoring tools must give individuals the opportunity to write and edit the *content/layout
 structure of MathML formulas* or to convert them from other mathematical representations.
+
+<!--  LocalWords:  standardization conventionalized
+ -->
