@@ -100,6 +100,3 @@ mathematical content should also guarantee these features to their users.
 
 Authoring tools must give individuals the opportunity to write and edit the *content/layout
 structure of MathML formulas* or to convert them from other mathematical representations.
-
-<!--  LocalWords:  standardization conventionalized
- -->
