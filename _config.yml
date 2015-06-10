@@ -19,8 +19,6 @@ header:
   - title: About us
     url: /about.html
     sub:
-      - title: Manifesto
-        url: /manifesto.html
       - title: Directors
         url: /directors.html
       - title: Bylaws
@@ -31,6 +29,8 @@ header:
         url: meetings/meetings.html
       - title: FAQ
         url: /faq.html
+  - title: Manifesto
+    url: /manifesto.html
   - title: Donate
     url: /donate.html
   - title: Contact
