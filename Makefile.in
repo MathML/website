@@ -1,0 +1,34 @@
+#!gmake
+
+LATIN_MODERN_MATH_URI=http://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip
+TEX_GYRE_HEROS_URI=http://www.gust.org.pl/projects/e-foundry/tex-gyre/heros/qhv2.004otf.zip
+
+all: mathml-logo-640x200.png mathml-logo-640x200.pdf mathml-logo-640x200.eps
+
+fonts: latinmodern-math.otf texgyreheros-regular.otf
+
+mathml-logo-640x200.png: mathml-logo-640x200.svg fonts
+	rm -f $@
+	@CONVERT@ -density 300 $< -transparent white \
+	          -resize 640x200 $@
+
+latinmodern-math.zip:
+	@WGET@ $(LATIN_MODERN_MATH_URI) -O $@
+	touch $@
+
+texgyreheros.zip:
+	@WGET@ $(TEX_GYRE_HEROS_URI) -O $@
+	touch $@
+
+latinmodern-math.otf: latinmodern-math.zip
+	@UNZIP@ -j $< latinmodern-math-1959/otf/$@
+	touch $@
+
+texgyreheros-regular.otf: texgyreheros.zip
+	@UNZIP@ -j $< $@
+	touch $@
+
+clean:
+
+distclean: clean
+	rm -rf *.otf *.zip

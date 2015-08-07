@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+     width="640px" height="200px">
+  <title>MathML Association Logo</title>
+  <desc>This is a rectangular logo, divided into two parts.
+  The left hand-side contains an image of the mathematical formula
+  "the W-th root of open paren W raised to the power W close paren" written
+  in green on a black background that has the shape of a square with rounded
+  corner. This image suggests mathematics and the World Wide Web.
+  The right hand-side contains the left-aligned sans-serif text
+  "MathML Association" with "MathML" written in black on the first line and
+  "Association" written in green on the second line.</desc>
+
+  <style type="text/css">
+    @font-face {
+      font-family: 'Latin Modern Math';
+      src: local('Latin Modern Math'), url('./latinmodern-math.otf');
+    } 
+    @font-face {
+     font-family: 'TeX Gyre Heros';
+      src: local('TeX Gyre Heros'), url('./texgyreheros-regular.otf');
+    }
+    text.mathFont {
+      font-family: 'Latin Modern Math', sans-serif;
+    }
+    text.textFont {
+      font-family: 'TeX Gyre Heros', sans-serif;
+    }
+  </style>
+
+  <!-- White background -->
+  <rect width="640" height="200" fill="white" opacity=".1"/>
+
+  <!-- Image on the left -->
+  <g transform="translate(5, 5)">
+    <!-- Black square -->
+    <rect height="190" width="190" ry="15"/>
+
+    <!-- Radical symbol -->
+    <path style="fill: #53c271" d="m 85,25 100,0 -5,15 -80,0
+                                   L 65,180 30,120 10,130 5,120 45,95 60,125"/>
+
+    <!-- WWW letters -->
+    <g>
+      <text class="mathFont" style="font-size: 37.8075px; fill :#53c271;"
+            x="25" y="80">𝑤</text>
+      <text class="mathFont" style="font-size: 75px; fill: #53c271;"
+            x="85" y="150">𝑤</text>
+      <text class="mathFont" style="font-size: 53.25px; fill: #53c271;"
+            x="140" y="110">𝑤</text>
+    </g>
+  </g>
+
+  <!-- Text on the right -->
+  <g transform="translate(200, 0)">
+    <text class="textFont" style="font-size: 90px; fill: #000000;"
+          y="100">MathML</text>
+    <text class="textFont" style="font-size: 85px; fill: #53c270;"
+          x="5" y="175">Association</text>
+  </g>
+</svg>
