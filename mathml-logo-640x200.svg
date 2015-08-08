@@ -28,8 +28,9 @@
     }
   </style>
 
-  <!-- White background -->
-  <rect width="640" height="200" fill="white" opacity=".1"/>
+  <!-- A transparent white frame to force logo size for EPS, ImageMagick etc -->
+  <rect transform="translate(.5,.5)" width="639" height="199"
+        fill="none" stroke="white" stroke-width="1px" stroke-opacity="0.1"/>
 
   <!-- Image on the left -->
   <g transform="translate(5, 5)">

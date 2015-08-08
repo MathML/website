@@ -7,10 +7,14 @@ all: mathml-logo-640x200.png mathml-logo-640x200.pdf mathml-logo-640x200.eps
 
 fonts: latinmodern-math.otf texgyreheros-regular.otf
 
-mathml-logo-640x200.png: mathml-logo-640x200.svg fonts
-	rm -f $@
-	@CONVERT@ -density 300 $< -transparent white \
-	          -resize 640x200 $@
+%.png: %.svg fonts
+	@INKSCAPE@ -f $< -C -d 90 -y 0.0 -e $@
+
+%.pdf: %.svg fonts
+	@INKSCAPE@ -f $< -C -d 90 -y 0.0 -E $@
+
+%.eps: %.svg fonts
+	@INKSCAPE@ -f $< -C -d 90 -y 0.0 -A $@
 
 latinmodern-math.zip:
 	@WGET@ $(LATIN_MODERN_MATH_URI) -O $@
@@ -29,6 +33,7 @@ texgyreheros-regular.otf: texgyreheros.zip
 	touch $@
 
 clean:
+	rm -f *.eps *.png *.pdf *.otf
 
 distclean: clean
-	rm -rf *.otf *.zip
+	rm -rf *.zip
