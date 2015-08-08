@@ -178,8 +178,7 @@ by law.
 ### 4.04 Qualifications and Election of Directors
 
 In order to be eligible to serve as a director on the board of directors, the
-individual must be 18 years of age and an affiliate within affiliate
-classifications created by the board of directors. Directors may be elected at
+individual must be 18 years of age. Directors may be elected at
 any board meeting by the majority vote of the existing board of directors. The
 election of directors to replace those who have fulfilled their term of office
 shall take place in January of each year.
