@@ -2,7 +2,9 @@
 *.otf
 *.pdf
 *.png
+*.woff
 *.zip
+*text-as-path.svg
 Makefile
 autom4te.cache
 config.log

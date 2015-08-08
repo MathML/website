@@ -14,11 +14,11 @@
   <style type="text/css">
     @font-face {
       font-family: 'Latin Modern Math';
-      src: local('Latin Modern Math'), url('./latinmodern-math.otf');
+      src: local('Latin Modern Math'), url('./latinmodern-math.woff');
     } 
     @font-face {
      font-family: 'TeX Gyre Heros';
-      src: local('TeX Gyre Heros'), url('./texgyreheros-regular.otf');
+      src: local('TeX Gyre Heros'), url('./texgyreheros-regular.woff');
     }
     text.mathFont {
       font-family: 'Latin Modern Math', sans-serif;
