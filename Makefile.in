@@ -3,8 +3,16 @@
 LATIN_MODERN_MATH_URI=http://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip
 TEX_GYRE_HEROS_URI=http://www.gust.org.pl/projects/e-foundry/tex-gyre/heros/qhv2.004otf.zip
 
-all: mathml-logo-640x200.png mathml-logo-640x200.pdf mathml-logo-640x200.eps \
-mathml-logo-640x200-text-as-path.svg
+all: woff \
+     mathml-logo-640x200.png \
+     mathml-logo-640x200.pdf \
+     mathml-logo-640x200.eps \
+     mathml-logo-640x200-text-as-path.svg \
+     mathml-logo-190x190.svg \
+     mathml-logo-190x190.png \
+     mathml-logo-190x190.pdf \
+     mathml-logo-190x190.eps \
+     mathml-logo-190x190-text-as-path.svg
 
 woff: latinmodern-math.woff texgyreheros-regular.woff
 
@@ -19,6 +27,9 @@ woff: latinmodern-math.woff texgyreheros-regular.woff
 
 %-text-as-path.svg: %.svg
 	@INKSCAPE@ -f $< -C -T -d 90 -y 0.0 -l $@
+
+mathml-logo-190x190.svg: mathml-logo-640x200.svg
+	@INKSCAPE@ -f $< -j -i logo_image -l $@
 
 latinmodern-math.zip:
 	@WGET@ $(LATIN_MODERN_MATH_URI) -O $@

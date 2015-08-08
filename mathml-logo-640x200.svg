@@ -15,7 +15,7 @@
     @font-face {
       font-family: 'Latin Modern Math';
       src: local('Latin Modern Math'), url('./latinmodern-math.woff');
-    } 
+    }
     @font-face {
      font-family: 'TeX Gyre Heros';
       src: local('TeX Gyre Heros'), url('./texgyreheros-regular.woff');
@@ -33,22 +33,25 @@
         fill="none" stroke="white" stroke-width="1px" stroke-opacity="0.1"/>
 
   <!-- Image on the left -->
-  <g transform="translate(5, 5)">
-    <!-- Black square -->
-    <rect height="190" width="190" ry="15"/>
+  <g id="logo_image">
+    <g transform="translate(5, 5)">
+      <!-- Black square -->
+      <rect height="190" width="190" ry="15"/>
 
-    <!-- Radical symbol -->
-    <path style="fill: #53c271" d="m 85,25 100,0 -5,15 -80,0
-                                   L 65,180 30,120 10,130 5,120 45,95 60,125"/>
+      <!-- Radical symbol -->
+      <path style="fill: #53c271"
+            d="m 85,25 100,0 -5,15 -80,0
+               L 65,180 30,120 10,130 5,120 45,95 60,125"/>
 
-    <!-- WWW letters -->
-    <g>
-      <text class="mathFont" style="font-size: 37.8075px; fill :#53c271;"
-            x="25" y="80">𝑤</text>
-      <text class="mathFont" style="font-size: 75px; fill: #53c271;"
-            x="85" y="150">𝑤</text>
-      <text class="mathFont" style="font-size: 53.25px; fill: #53c271;"
-            x="140" y="110">𝑤</text>
+      <!-- WWW letters -->
+      <g>
+        <text class="mathFont" style="font-size: 37.8075px; fill :#53c271;"
+              x="25" y="80">𝑤</text>
+        <text class="mathFont" style="font-size: 75px; fill: #53c271;"
+              x="85" y="150">𝑤</text>
+        <text class="mathFont" style="font-size: 53.25px; fill: #53c271;"
+              x="140" y="110">𝑤</text>
+      </g>
     </g>
   </g>
 
