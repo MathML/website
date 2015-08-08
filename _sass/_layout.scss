@@ -2,7 +2,11 @@
  * Site header
  */
 .site-header {
-    background-image: url(/img/background.jpg);
+    background: linear-gradient(to bottom, white 70%, $scheme-color-1);
+    @include media-query($on-palm) {
+        background: white;
+    }
+
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
@@ -55,7 +59,7 @@
     }
     ul li a:hover {
         background: white;
-        color: #010135;
+        color: $scheme-color-1;
     }
     li:hover ul {
         display: block;
@@ -64,7 +68,7 @@
     li:hover li {
         float: none;
     }
-    li:hover a { background: #010135; }
+    li:hover a { background: $scheme-color-1; }
     li:hover li a:hover { background: white; }
 
     @include media-query($on-palm) {
@@ -116,10 +120,10 @@
             text-decoration: none;
             padding: 5px 15px 5px 15px;
             margin-left: 1px;
-            color: #010135;
+            color: $scheme-color-1;
         }
         li:hover a:hover {
-            background-color: #010135;
+            background-color: $scheme-color-1;
             color: white;
         }
         li:hover ul {
@@ -131,7 +135,7 @@
         }
         li:hover a { background: white; }
         li:hover li a:hover {
-            background-color: #010135;
+            background-color: $scheme-color-1;
             color: white;
         }
 
