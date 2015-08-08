@@ -5,7 +5,6 @@
 *.woff
 *.zip
 *text-as-path.svg
-*190x190.svg
 Makefile
 autom4te.cache
 config.log

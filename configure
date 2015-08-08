@@ -581,7 +581,7 @@ PACKAGE_STRING='MathML Logo 1.0'
 PACKAGE_BUGREPORT=''
 PACKAGE_URL=''
 
-ac_unique_file="mathml-logo-640x200.svg"
+ac_unique_file="mathml-logo.svg"
 ac_subst_vars='LTLIBOBJS
 LIBOBJS
 SFNT2WOFF

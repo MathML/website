@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
-     width="640px" height="200px">
+     width="640" height="200" viewBox="0 0 640 200">
   <title>MathML Association Logo</title>
   <desc>This is a rectangular logo, divided into two parts.
   The left hand-side contains an image of the mathematical formula
@@ -21,20 +21,22 @@
       src: local('TeX Gyre Heros'), url('./texgyreheros-regular.woff');
     }
     text.mathFont {
-      font-family: 'Latin Modern Math', sans-serif;
+      font-family: 'Latin Modern Math', serif;
     }
     text.textFont {
       font-family: 'TeX Gyre Heros', sans-serif;
     }
   </style>
 
-  <!-- A transparent white frame to force logo size for EPS, ImageMagick etc -->
-  <rect transform="translate(.5,.5)" width="639" height="199"
-        fill="none" stroke="white" stroke-width="1px" stroke-opacity="0.1"/>
+  <g>
+    <!-- A transparent white frame to force logo size for EPS. -->
+    <rect transform="translate(.5,.5)" width="639" height="199"
+          fill="none" stroke="white" stroke-width="1px" stroke-opacity="0.1"/>
+  </g>
 
-  <!-- Image on the left -->
-  <g id="logo_image">
-    <g transform="translate(5, 5)">
+  <g transform="translate(5, 5)">
+    <!-- Logo Image -->
+    <g>
       <!-- Black square -->
       <rect height="190" width="190" ry="15"/>
 
@@ -45,7 +47,7 @@
 
       <!-- WWW letters -->
       <g>
-        <text class="mathFont" style="font-size: 37.8075px; fill :#53c271;"
+        <text class="mathFont" style="font-size: 37.8075px; fill: #53c271;"
               x="25" y="80">𝑤</text>
         <text class="mathFont" style="font-size: 75px; fill: #53c271;"
               x="85" y="150">𝑤</text>
@@ -55,11 +57,13 @@
     </g>
   </g>
 
-  <!-- Text on the right -->
-  <g transform="translate(200, 0)">
-    <text class="textFont" style="font-size: 90px; fill: #000000;"
-          y="100">MathML</text>
-    <text class="textFont" style="font-size: 85px; fill: #53c270;"
-          x="5" y="175">Association</text>
+  <g>
+    <!-- Logo Text -->
+    <g transform="translate(200, 0)">
+      <text class="textFont" style="font-size: 90px; fill: #000000;"
+            y="100">MathML</text>
+      <text class="textFont" style="font-size: 85px; fill: #53c270;"
+            x="5" y="175">Association</text>
+    </g>
   </g>
 </svg>
