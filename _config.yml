@@ -14,8 +14,8 @@ markdown: kramdown
 header:
   - title: News
     url: /news.html
-  - title: Projects
-    url: /projects.html
+  - title: Manifesto
+    url: /manifesto.html
   - title: About us
     url: /about.html
     sub:
@@ -23,14 +23,16 @@ header:
         url: /directors.html
       - title: Bylaws
         url: /non-profit-corporate-by-laws.html
+      - title: Affiliates
+        url: affiliates.html
       - title: COIP
         url: conflict-of-interest-policy.html
       - title: Meetings
         url: meetings/meetings.html
       - title: FAQ
         url: /faq.html
-  - title: Manifesto
-    url: /manifesto.html
+  - title: Projects
+    url: /projects.html
   - title: Donate
     url: /donate.html
   - title: Contact
