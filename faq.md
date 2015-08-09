@@ -36,13 +36,7 @@ try.
 
 **Where can I vote for MathML support in Chrome and Internet Explorer?**
 
-Try [here](link to code google com) and [here](link to status modern ie).
-
-**What are your efforts to make MathML integrated into Wikipedia?**
-
-We are currently working with the MediaWiki developers to replace the current
-PNG images of formulas with a new mode serving MathML with SVG fallback.
-TODO: add more info?
+Try [here](https://code.google.com/p/chromium/issues/detail?id=152430) and [here](https://status.modern.ie/mathml).
 
 **How is the MathML association different from the OpenMath Society?**
 
