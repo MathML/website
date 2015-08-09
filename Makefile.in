@@ -82,4 +82,4 @@ clean:
 	      *-inline-style.svg
 
 distclean: clean
-	rm -rf *.zip
+	rm -rf *.zip autom4te.cache config.log config.status Makefile
