@@ -13,6 +13,6 @@
 m|math, s|text.mathFont {
   font-family: 'Latin Modern Math', LatinModernMathWOFF, serif;
 }
-m|body, s|text.textFont {
+body, s|text.textFont {
   font-family: 'TeX Gyre Heros', TeXGyreHerosWOFF, sans-serif;
 }
