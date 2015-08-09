@@ -55,7 +55,7 @@ directors:
 </a>
 {% endif %}
 {% if people.email %}
-<a href="{{people.email}}">
+<a href="mailto:{{people.email}}">
 <span class="icon">{% include email-icon.html %}</span>
 </a>
 {% endif %}
