@@ -9,11 +9,11 @@
 
   <style type="text/css">
     @font-face {
-      font-family: 'Latin Modern Math';
-      src: local('Latin Modern Math'), url('./latinmodern-math.woff');
+      font-family: LatinModernMathWOFF;
+      src: url('./latinmodern-math.woff');
     }
     text.mathFont {
-      font-family: 'Latin Modern Math', serif;
+      font-family: 'Latin Modern Math', TeXGyreHerosWOFF, serif;
     }
   </style>
 

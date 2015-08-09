@@ -13,18 +13,18 @@
 
   <style type="text/css">
     @font-face {
-      font-family: 'Latin Modern Math';
-      src: local('Latin Modern Math'), url('./latinmodern-math.woff');
+      font-family: LatinModernMathWOFF;
+      src: url('./latinmodern-math.woff');
     }
     @font-face {
-     font-family: 'TeX Gyre Heros';
-      src: local('TeX Gyre Heros'), url('./texgyreheros-regular.woff');
+     font-family: TeXGyreHerosWOFF;
+     src: url('./texgyreheros-regular.woff');
     }
     text.mathFont {
-      font-family: 'Latin Modern Math', serif;
+      font-family: 'Latin Modern Math', TeXGyreHerosWOFF, serif;
     }
     text.textFont {
-      font-family: 'TeX Gyre Heros', sans-serif;
+      font-family: 'TeX Gyre Heros', TeXGyreHerosWOFF, sans-serif;
     }
   </style>
 
