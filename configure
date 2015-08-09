@@ -1837,6 +1837,13 @@ fi
 done
 
 
+if test -z "$UNZIP" ||
+   test -z "$WGET" ||
+   test -z "$INKSCAPE" ||
+   test -z "$SFNT2WOFF"; then
+   as_fn_error $? "Missing dependencies. Please read the README.md file." "$LINENO" 5
+fi
+
 ac_config_files="$ac_config_files Makefile"
 
 cat >confcache <<\_ACEOF

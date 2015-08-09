@@ -10,5 +10,12 @@ AC_CHECK_PROGS(WGET, wget)
 AC_CHECK_PROGS(INKSCAPE, inkscape)
 AC_CHECK_PROGS(SFNT2WOFF, sfnt2woff)
 
+if test -z "$UNZIP" ||
+   test -z "$WGET" ||
+   test -z "$INKSCAPE" ||
+   test -z "$SFNT2WOFF"; then
+   AC_MSG_ERROR(Missing dependencies. Please read the README.md file.)
+fi
+
 AC_CONFIG_FILES(Makefile)
 AC_OUTPUT
