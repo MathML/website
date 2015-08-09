@@ -3,8 +3,6 @@ layout: page
 title: The MathML Manifesto
 ---
 
-## Warning: this is a draft.
-
 #### 0) Preamble
 
 Mathematics is the foundation of modern science, technology, and engineering. Mathematical
