@@ -7,19 +7,6 @@
   "the W-th root of open paren W raised to the power W close paren" written
   in green on a black background that has the shape of a square with rounded
   corner. This image suggests mathematics and the World Wide Web.</desc>
-  <defs>
-    <style type="text/css"><![CDATA[
-    /* Some SVG tools (e.g. Inkscape) do not seem to support xml-stylesheet,
-    hence we must copy the style again here :-( */
-    @font-face {
-      font-family: LatinModernMathWOFF;
-      src: url('./latinmodern-math.woff');
-    }
-    text.mathFont {
-      font-family: 'Latin Modern Math', LatinModernMathWOFF, serif;
-    }
-    ]]></style>
-  </defs>
 
   <g>
     <!-- Black square -->

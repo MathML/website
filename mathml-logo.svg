@@ -11,26 +11,6 @@
   The right hand-side contains the left-aligned sans-serif text
   "MathML Association" with "MathML" written in black on the first line and
   "Association" written in green on the second line.</desc>
-  <defs>
-    <style type="text/css"><![CDATA[
-    /* Some SVG tools (e.g. Inkscape) do not seem to support xml-stylesheet,
-    hence we must copy the style again here :-( */
-    @font-face {
-      font-family: LatinModernMathWOFF;
-      src: url('./latinmodern-math.woff');
-    }
-    @font-face {
-      font-family: TeXGyreHerosWOFF;
-      src: url('./texgyreheros-regular.woff');
-    }
-    text.mathFont {
-      font-family: 'Latin Modern Math', LatinModernMathWOFF, serif;
-    }
-    text.textFont {
-      font-family: 'TeX Gyre Heros', TeXGyreHerosWOFF, sans-serif;
-    }
-    ]]></style>
-  </defs>
 
   <g>
     <!-- Draw white transparent pixels at the top left and bottom right
