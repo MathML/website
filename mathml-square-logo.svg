@@ -13,7 +13,7 @@
       src: url('./latinmodern-math.woff');
     }
     text.mathFont {
-      font-family: 'Latin Modern Math', TeXGyreHerosWOFF, serif;
+      font-family: 'Latin Modern Math', LatinModernMathWOFF, serif;
     }
   </style>
 
