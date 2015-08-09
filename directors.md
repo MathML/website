@@ -24,7 +24,7 @@ directors:
   twitter:
   website:
 - name: Raniere Silva
-  description: Raniere Silva is a undergraduate student in applied mathematics at University of Campinas and involved with MathML as a enthusiastic. He is also a core developer for Software Carpentry.
+  description: Raniere Silva has a BSc in applied mathematics at University of Campinas and involved with MathML as a enthusiastic. He is also a core developer for Software Carpentry.
   photo: img/people/silva.raniere.jpg
   email: raniere@ime.unicamp.br
   github: r-gaia-cs
