@@ -181,10 +181,14 @@
     @extend %clearfix;
 }
 
-.footer-col {
-    float: left;
+.footer-col,
+.footer-multi-col {
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
+}
+
+.footer-multi-col {
+    float: left;
 }
 
 .footer-col-1 {
