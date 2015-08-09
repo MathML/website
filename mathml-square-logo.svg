@@ -22,17 +22,17 @@
     <rect height="190" width="190" ry="15"/>
 
     <!-- Radical symbol -->
-    <path style="fill: #53c271"
+    <path fill="#53c271"
           d="m 85,25 100,0 -5,15 -80,0
              L 65,180 30,120 10,130 5,120 45,95 60,125"/>
 
     <!-- WWW letters -->
     <g>
-      <text class="mathFont" style="font-size: 37.8075px; fill: #53c271;"
+      <text class="mathFont" font-size="37.8075px" fill="#53c271"
             x="25" y="80">𝑤</text>
-      <text class="mathFont" style="font-size: 75px; fill: #53c271;"
+      <text class="mathFont" font-size="75px" fill="#53c271"
             x="85" y="150">𝑤</text>
-      <text class="mathFont" style="font-size: 53.25px; fill: #53c271;"
+      <text class="mathFont" font-size="53.25px" fill="#53c271"
             x="140" y="110">𝑤</text>
     </g>
   </g>

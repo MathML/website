@@ -17,8 +17,8 @@
       src: url('./latinmodern-math.woff');
     }
     @font-face {
-     font-family: TeXGyreHerosWOFF;
-     src: url('./texgyreheros-regular.woff');
+      font-family: TeXGyreHerosWOFF;
+      src: url('./texgyreheros-regular.woff');
     }
     text.mathFont {
       font-family: 'Latin Modern Math', LatinModernMathWOFF, serif;
@@ -43,17 +43,17 @@
       <rect height="190" width="190" ry="15"/>
 
       <!-- Radical symbol -->
-      <path style="fill: #53c271"
+      <path fill="#53c271"
             d="m 85,25 100,0 -5,15 -80,0
                L 65,180 30,120 10,130 5,120 45,95 60,125"/>
 
       <!-- WWW letters -->
       <g>
-        <text class="mathFont" style="font-size: 37.8075px; fill: #53c271;"
+        <text class="mathFont" font-size="37.8075px" fill="#53c271"
               x="25" y="80">𝑤</text>
-        <text class="mathFont" style="font-size: 75px; fill: #53c271;"
+        <text class="mathFont" font-size="75px" fill="#53c271"
               x="85" y="150">𝑤</text>
-        <text class="mathFont" style="font-size: 53.25px; fill: #53c271;"
+        <text class="mathFont" font-size="53.25px" fill="#53c271"
               x="140" y="110">𝑤</text>
       </g>
     </g>
@@ -62,9 +62,9 @@
   <g>
     <!-- Logo Text -->
     <g transform="translate(200, 0)">
-      <text class="textFont" style="font-size: 90px; fill: #000000;"
+      <text class="textFont" font-size="90px" fill="#000000"
             y="100">MathML</text>
-      <text class="textFont" style="font-size: 85px; fill: #53c270;"
+      <text class="textFont" font-size="85px" fill="#53c270"
             x="5" y="175">Association</text>
     </g>
   </g>

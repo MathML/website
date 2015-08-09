@@ -20,35 +20,40 @@ all: woff \
 
 woff: latinmodern-math.woff texgyreheros-regular.woff
 
-mathml-logo-640x200.png: mathml-logo.svg woff
-	@INKSCAPE@ -f $< -C -T -d 90 -y 0.0 -w 640 -e $@
+mathml-logo-640x200.png: mathml-logo.svg
+	@INKSCAPE@ -f $< -C -T -y 0.0 -w 640 -e $@
 
-mathml-logo-320x100.png: mathml-logo.svg woff
-	@INKSCAPE@ -f $< -C -T -d 90 -y 0.0 -w 320 -e $@
+mathml-logo-320x100.png: mathml-logo.svg
+	@INKSCAPE@ -f $< -C -T -y 0.0 -w 320 -e $@
 
-mathml-logo-240x75.png: mathml-logo.svg woff
-	@INKSCAPE@ -f $< -C -T -d 90 -y 0.0 -w 240 -e $@
+mathml-logo-240x75.png: mathml-logo.svg
+	@INKSCAPE@ -f $< -C -T -y 0.0 -w 240 -e $@
 
-mathml-square-logo-500.png: mathml-square-logo.svg woff
-	@INKSCAPE@ -f $< -C -T -d 90 -y 0.0 -w 500 -e $@
+mathml-square-logo-500.png: mathml-square-logo.svg
+	@INKSCAPE@ -f $< -C -T -y 0.0 -w 500 -e $@
 
-mathml-square-logo-256.png: mathml-square-logo.svg woff
-	@INKSCAPE@ -f $< -C -T -d 90 -y 0.0 -w 256 -e $@
+mathml-square-logo-256.png: mathml-square-logo.svg
+	@INKSCAPE@ -f $< -C -T -y 0.0 -w 256 -e $@
 
-mathml-square-logo-128.png: mathml-square-logo.svg woff
-	@INKSCAPE@ -f $< -C -T -d 90 -y 0.0 -w 128 -e $@
+mathml-square-logo-128.png: mathml-square-logo.svg
+	@INKSCAPE@ -f $< -C -T -y 0.0 -w 128 -e $@
 
-mathml-square-logo-64.png: mathml-square-logo.svg woff
-	@INKSCAPE@ -f $< -C -T -d 90 -y 0.0 -w 64 -e $@
+mathml-square-logo-64.png: mathml-square-logo.svg
+	@INKSCAPE@ -f $< -C -T -y 0.0 -w 64 -e $@
 
-%.pdf: %.svg woff
-	@INKSCAPE@ -f $< -C -T -d 90 -y 0.0 -E $@
+%.pdf: %.svg
+	@INKSCAPE@ -f $< -C -T -y 0.0 -E $@
 
-%.eps: %.svg woff
-	@INKSCAPE@ -f $< -C -T -d 90 -y 0.0 -A $@
+%.eps: %.svg
+	@INKSCAPE@ -f $< -C -T -y 0.0 -A $@
 
 %-text-as-path.svg: %.svg
-	@INKSCAPE@ -f $< -C -T -d 90 -y 0.0 -l $@
+	@INKSCAPE@ -f $< -C -T -y 0.0 -l $@-tmp
+	@SCOUR@ -i $@-tmp -o $@ \
+		--enable-comment-stripping \
+		--enable-id-stripping
+	rm $@-tmp
+	touch $@
 
 latinmodern-math.zip:
 	@WGET@ $(LATIN_MODERN_MATH_URI) -O $@

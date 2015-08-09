@@ -5,15 +5,17 @@ AC_PREREQ(2.13)
 AC_INIT(MathML Logo, 1.0)
 AC_CONFIG_SRCDIR(mathml-logo.svg)
 
+AC_CHECK_PROGS(INKSCAPE, inkscape)
+AC_CHECK_PROGS(SCOUR, scour)
+AC_CHECK_PROGS(SFNT2WOFF, sfnt2woff)
 AC_CHECK_PROGS(UNZIP, unzip)
 AC_CHECK_PROGS(WGET, wget)
-AC_CHECK_PROGS(INKSCAPE, inkscape)
-AC_CHECK_PROGS(SFNT2WOFF, sfnt2woff)
 
-if test -z "$UNZIP" ||
-   test -z "$WGET" ||
-   test -z "$INKSCAPE" ||
-   test -z "$SFNT2WOFF"; then
+if test -z "$INKSCAPE" ||
+   test -z "$SCOUR" ||
+   test -z "$SFNT2WOFF" ||
+   test -z "$UNZIP" ||
+   test -z "$WGET"; then
    AC_MSG_ERROR(Missing dependencies. Please read the README.md file.)
 fi
 

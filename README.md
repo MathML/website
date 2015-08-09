@@ -9,7 +9,8 @@ You need an UNIX environment with
 [make](https://www.gnu.org/software/make/),
 [unzip](http://www.info-zip.org/UnZip.html),
 [wget](https://www.gnu.org/software/wget/),
-[inkscape](https://inkscape.org/) and
+[inkscape](https://inkscape.org/),
+[scour](http://codedread.com/scour/) and
 [sfnt2woff](https://people.mozilla.org/~jkew/woff/).
 To build everything, do:
 
