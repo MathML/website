@@ -3,5 +3,5 @@ layout: page
 title: Donate
 ---
 
-Please send a email to {{site.email}}
+Please send an email to {{site.email}}
 for more information.
