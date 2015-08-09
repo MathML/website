@@ -20,8 +20,8 @@ all: woff \
 
 woff: latinmodern-math.woff texgyreheros-regular.woff
 
-%-inline-style.svg: %.svg
-	@XSLTPROC@ convert-to-inline-style.xsl $< > $@
+%-inline-style.svg: convert-to-inline-style.xsl %.svg
+	@XSLTPROC@ $^ > $@
 
 mathml-logo-640x200.png: mathml-logo-inline-style.svg
 	@INKSCAPE@ -f $< -C -T -y 0.0 -w 640 -e $@
@@ -50,12 +50,14 @@ mathml-square-logo-64.png: mathml-square-logo-inline-style.svg
 %.eps: %-inline-style.svg
 	@INKSCAPE@ -f $< -C -T -y 0.0 -A $@
 
-%-text-as-path.svg: %-inline-style.svg
-	@INKSCAPE@ -f $< -C -T -y 0.0 -l $@-tmp
-	@SCOUR@ -i $@-tmp -o $@ \
+%-text-as-path.svg: %-inline-style.svg remove-inline-style.xsl
+	@INKSCAPE@ -f $< -C -T -y 0.0 -l $@-tmp-1
+	@XSLTPROC@ remove-inline-style.xsl $@-tmp-1 > $@-tmp-2
+	@SCOUR@ -i $@-tmp-2 -o $@ \
 		--enable-comment-stripping \
-		--enable-id-stripping
-	rm $@-tmp
+		--enable-id-stripping \
+		--remove-metadata
+	rm $@-tmp-1 $@-tmp-2
 	touch $@
 
 latinmodern-math.zip:
