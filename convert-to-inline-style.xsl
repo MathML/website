@@ -2,6 +2,10 @@
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:s="http://www.w3.org/2000/svg" version="1.0">
 
+  <!-- This Source Code Form is subject to the terms of the Mozilla Public
+     - License, v. 2.0. If a copy of the MPL was not distributed with this
+     - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
   <xsl:output method="xml" cdata-section-elements="s:style"/>
 
   <!-- Insert a defs element with inline style. -->
