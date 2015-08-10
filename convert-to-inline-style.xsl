@@ -6,7 +6,8 @@
      - License, v. 2.0. If a copy of the MPL was not distributed with this
      - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-  <xsl:output method="xml" cdata-section-elements="s:style"/>
+  <xsl:output method="xml" cdata-section-elements="s:style s:metadata"/>
+  <xsl:strip-space elements="s:*" />
 
   <!-- Insert a defs element with inline style. -->
   <xsl:template match="s:svg">
@@ -29,8 +30,8 @@
     </xsl:element>
   </xsl:template>
 
-  <!-- Remove the xml-stylesheet processing instruction. -->
-  <xsl:template match="processing-instruction()"></xsl:template>
+  <!-- Remove the xml-stylesheet processing instruction and comments. -->
+  <xsl:template match="processing-instruction()|comment()"></xsl:template>
 
   <!-- By default, just copy the nodes. -->
   <xsl:template match="@*|node()">

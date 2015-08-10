@@ -6,7 +6,8 @@
      - License, v. 2.0. If a copy of the MPL was not distributed with this
      - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-  <xsl:output method="xml"/>
+  <xsl:output method="xml" cdata-section-elements="s:metadata"/>
+  <xsl:strip-space elements="s:*" />
 
   <!-- Remove the defs element (containing inline style). -->
   <xsl:template match="s:defs"></xsl:template>

@@ -6,25 +6,24 @@
 LATIN_MODERN_MATH_URI=http://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip
 TEX_GYRE_HEROS_URI=http://www.gust.org.pl/projects/e-foundry/tex-gyre/heros/qhv2.004otf.zip
 
-all: mathml-logo.zip
+all: mathml-logos.zip latinmodern-math.woff texgyreheros-regular.woff
 
-mathml-logo.zip: mathml-logo.svg \
-		 mathml-square-logo.svg \
-		 mathml-logo-640x200.png \
-		 mathml-logo-320x100.png \
+mathml-logos.zip: manifest.txt \
 		 mathml-logo-240x75.png \
-		 mathml-logo.pdf \
-		 mathml-logo.eps \
+		 mathml-logo-320x100.png \
+		 mathml-logo-640x200.png \
 		 mathml-logo-text-as-path.svg \
-		 mathml-square-logo-500.png \
-		 mathml-square-logo-256.png \
+		 mathml-logo.eps \
+		 mathml-logo.pdf \
+		 mathml-logo.svg \
 		 mathml-square-logo-128.png \
+		 mathml-square-logo-256.png \
+		 mathml-square-logo-500.png \
 		 mathml-square-logo-64.png \
-		 mathml-square-logo.pdf \
-		 mathml-square-logo.eps \
 		 mathml-square-logo-text-as-path.svg \
-		 latinmodern-math.woff \
-		 texgyreheros-regular.woff
+		 mathml-square-logo.eps \
+		 mathml-square-logo.pdf \
+		 mathml-square-logo.svg
 	@ZIP@ $@ $^
 
 %-inline-style.svg: convert-to-inline-style.xsl %.svg

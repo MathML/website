@@ -1,22 +1,16 @@
-/* This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
-
-@namespace url('http://www.w3.org/1999/xhtml');
-@namespace m url('http://www.w3.org/1998/Math/MathML');
-@namespace s url('http://www.w3.org/2000/svg');
+/* This file is distributed under TODO: see issue 1 */
 
 @font-face {
   font-family: LatinModernMathWOFF;
-  src: url('./latinmodern-math.woff');
+  src: url('https://mathml.github.io/logo/latinmodern-math.woff');
 }
 @font-face {
   font-family: TeXGyreHerosWOFF;
-  src: url('./texgyreheros-regular.woff');
+  src: url('https://mathml.github.io/logo/texgyreheros-regular.woff');
 }
-m|math, s|text.mathFont {
+.mathFont {
   font-family: 'Latin Modern Math', LatinModernMathWOFF, serif;
 }
-body, s|text.textFont {
+.textFont {
   font-family: 'TeX Gyre Heros', TeXGyreHerosWOFF, sans-serif;
 }
