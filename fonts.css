@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: LatinModernMathWOFF;
-  src: url('https://mathml.github.io/logo/latinmodern-math.woff');
+  src: url('https://mathml.github.io/logo/webfonts/latinmodern-math.woff');
 }
 @font-face {
   font-family: TeXGyreHerosWOFF;
-  src: url('https://mathml.github.io/logo/texgyreheros-regular.woff');
+  src: url('https://mathml.github.io/logo/webfonts/texgyreheros-regular.woff');
 }
 .mathFont {
   font-family: 'Latin Modern Math', LatinModernMathWOFF, serif;

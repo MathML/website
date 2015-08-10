@@ -6,7 +6,8 @@
 LATIN_MODERN_MATH_URI=http://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip
 TEX_GYRE_HEROS_URI=http://www.gust.org.pl/projects/e-foundry/tex-gyre/heros/qhv2.004otf.zip
 
-all: mathml-logos.zip latinmodern-math.woff texgyreheros-regular.woff
+all: mathml-logos.zip \
+     webfonts/latinmodern-math.woff webfonts/texgyreheros-regular.woff
 
 mathml-logos.zip: manifest.txt \
 		 mathml-logo-240x75.png \
@@ -73,19 +74,20 @@ texgyreheros.zip:
 	@WGET@ $(TEX_GYRE_HEROS_URI) -O $@
 	touch $@
 
-latinmodern-math.otf: latinmodern-math.zip
-	@UNZIP@ -j $< latinmodern-math-1959/otf/$@
+webfonts/latinmodern-math.otf: latinmodern-math.zip
+	@UNZIP@ -j $< latinmodern-math-1959/otf/latinmodern-math.otf -d webfonts
 	touch $@
 
-texgyreheros-regular.otf: texgyreheros.zip
-	@UNZIP@ -j $< $@
+webfonts/texgyreheros-regular.otf: texgyreheros.zip
+	@UNZIP@ -j $< texgyreheros-regular.otf -d webfonts
 	touch $@
 
-%.woff: %.otf
+webfonts/%.woff: webfonts/%.otf
 	@SFNT2WOFF@ $<
 
 clean:
-	rm -f *.eps *.png *.pdf *.otf *.woff *-text-as-path.svg \
+	rm -f *.eps *.png *.pdf webfonts/*.woff webfonts/*.otf \
+	      *-text-as-path.svg \
 	      *-inline-style.svg
 
 distclean: clean
