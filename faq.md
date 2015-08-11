@@ -40,25 +40,16 @@ Try [here](https://code.google.com/p/chromium/issues/detail?id=152430) and [here
 
 **How is the MathML association different from the OpenMath Society?**
 
-As stated on the OpenMath website, the goal of OpenMath Society is to
-"coordinate OpenMath activities" with focus on "semantic meaning or content" of
-mathematical formulas ; but funding native MathML implementation does not seem
-part of their purposes. The MathML association is instead focused on making
-(presentation) MathML well-integrated into the Web platform and natively
-supported by Web browsers. That said,
-"the two technologies may be seen as highly complementary" and the
-&lt;semantics&gt; element can be used to provide MathML formulas with both
-presentation and semantics.
+As stated on the [OpenMath website](www.openmath.org), the goal of OpenMath Society is to "coordinate OpenMath activities" with focus on "semantic meaning or content" of mathematical formulas. The MathML association is instead focused on making MathML well-integrated into the Web platform and natively supported by Web browsers and assistive technologies.
+
+That said, "the two technologies may be seen as highly complementary". OpenMath is strongly related to Content MathML and the &lt;semantics&gt; element can be used to provide MathML formulas with both presentation and meaning. The MathML manifesto highlights the importance of combining these two languages.
+
+Many members of the Open Society are already involved in the MathML Association. We hope that more of them will support the MathML Manifesto and could become MathML affiliates.
 
 **How is the MathML association different from the MathJax Consortium?**
 
-As indicated on the MathJax website, "The core of the MathJax project is the
-development of its state-of-the-art, open source, JavaScript platform for
-display of mathematics.". Instead, the MathML association does not focus
-on promoting a particular product but intends to implement the MathML standard
-into Web browsers and assistive technologies. Note that MathJax's internal
-representation is MathML and its team members have advocated for native MathML
-support in Web browsers, but they have never made any official statement
-regarding funding plans. Moreover, the way MathJax encapsulates MathML makes it
-badly integrated into the Web platform and hardly accessible to MathML-aware
-tools ; hence this can only be a transition technology.
+As stated on the [MathJax website](https://www.mathjax.org), "The core of the MathJax project is the development of its state-of-the-art, open source, JavaScript platform for display of mathematics" while the MathML Association does not focus on a particular product but on native support everywhere.
+
+We are happy that MathJax has already embraced MathML, which is used as its core formula representation language. While MathJax has provided an invaluable bridge solution for displaying beautiful math-on-the-web today, the MathML association is focusing on advancing the state of web mathematics tomorrow.
+
+Our goal towards standards-compliant web mathematics, via native MathML support in all browsers, aims at faster rendering, better accessibility and towards building a healthy ecosystem of math web application development. [Quoting MathJax's Manager](http://exchanges.wiley.com/blog/2015/03/02/making-math-and-science-first-class-citizens-on-the-web/), "While we are proud of our accomplishments at MathJax, we know that we can only provide half the solution: native browser support must be the goal". Consequently, we hope that the MathJax Consortium will support our manifesto and could become a MathML affiliate.
