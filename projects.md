@@ -19,4 +19,4 @@ projects:
 ## Submit a project
 
 If you want to suggest a project for the association,
-please send a email to {{ site.email }}.
+please send an email to {{ site.email }}.
