@@ -24,11 +24,11 @@ header:
       - title: Bylaws
         url: /non-profit-corporate-by-laws.html
       - title: Affiliates
-        url: affiliates.html
+        url: /affiliates.html
       - title: COIP
-        url: conflict-of-interest-policy.html
+        url: /conflict-of-interest-policy.html
       - title: Meetings
-        url: meetings/meetings.html
+        url: /meetings/meetings.html
       - title: FAQ
         url: /faq.html
   - title: Projects
