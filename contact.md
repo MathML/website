@@ -3,4 +3,4 @@ layout: page
 title: Contact
 ---
 
-Please send an email to {{site.email}}.
+Please send a email to [{{site.email}}](mailto:{{site.email}}).

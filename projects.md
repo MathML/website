@@ -4,7 +4,9 @@ title: Projects
 projects:
 ---
 
-This page is under construction.
+**This page is under construction.**
+
+## List of projects
 
 {% for project in page.projects %}
 <div class="project">
@@ -13,3 +15,8 @@ This page is under construction.
 <p><strong>Coordinator:</strong> {{project.coordinator}}</p>
 </div>
 {% endfor %}
+
+## Submit a project
+
+If you want to suggest a project for the association,
+please send a email to {{ site.email }}.

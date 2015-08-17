@@ -3,6 +3,16 @@ layout: page
 title: Non-profit corporate bylaws
 ---
 
+<style>
+ol {
+  list-style-type: lower-alpha;
+}
+
+ol ol {
+  list-style-type: lower-roman;
+}
+</style>
+
 ## ARTICLE I - NAME
 
 ### 1.01 Name
@@ -22,11 +32,13 @@ or the corresponding section of any future Federal tax code.
 
 The goals of Mondial Association for Tools Handling MathML, Ltd are:
 
-(a) Native implementation of the MathML language in all Web rendering engines.
-(b) Development of software tools to let users read, write, search, store and
-   transfer MathML formulas; with particular attention to make them accessible
+1.  Native implementation of the MathML language in all Web rendering engines.
+
+2.  Development of software tools to let users read, write, search, store and
+    transfer MathML formulas; with particular attention to make them accessible
     to people with disabilities.
-(c) Usage of the MathML language to publish educational, technical and
+
+3.  Usage of the MathML language to publish educational, technical and
     scientific content in Web sites, ebooks or Web apps.
 
 <!--
@@ -70,12 +82,12 @@ contributions.
 
 ### 2.03 Nonprofit Status and Exempt Activities Limitation.
 
-(a) **Nonprofit Legal Status.** Mondial Association for Tools Handling MathML,
+1.  **Nonprofit Legal Status.** Mondial Association for Tools Handling MathML,
     Ltd. is a charitable organization under the Not-for-Profit Corporation Law
     of the State of New York, recognized as tax exempt under Section 501(c)(3)
     of the United States Internal Revenue Code.
 
-(b) **Exempt Activities Limitation.** Not withstanding any other provision of
+2.  **Exempt Activities Limitation.** Not withstanding any other provision of
     these Bylaws, no director, officer, employee, member, or representative of
     this corporation shall take any action or carry on any activity by or on
     behalf of the corporation not permitted to be taken or carried on by an
@@ -89,7 +101,7 @@ contributions.
     rendered and to make payments and distributions in furtherance of the
     purposes set forth in the Articles of Incorporation and these Bylaws.
 
-(c) **Distribution Upon Dissolution.** Upon termination or dissolution of the
+3.  **Distribution Upon Dissolution.** Upon termination or dissolution of the
     Mondial Association for Tools Handling MathML, Ltd., any assets lawfully
     available for distribution shall be distributed to one (1) or more
     qualifying organizations described in Section 501(c)(3) of the 1986
@@ -163,15 +175,15 @@ by law.
 
 ### 4.03 Terms
 
-(a) All directors shall be elected to serve a two-year term, however the term
+1.  All directors shall be elected to serve a two-year term, however the term
     may be extended until a successor has been elected.
 
-(b) Director terms shall be staggered so that approximately half the number of
+2.  Director terms shall be staggered so that approximately half the number of
     directors will end their terms in any given year.
 
-(c) Directors may serve terms in succession.
+2.  Directors may serve terms in succession.
 
-(d) The term of office shall be considered to begin January 1 and end December
+3.  The term of office shall be considered to begin January 1 and end December
     31 of the second year in office, unless the term is extended until such
     time as a successor has been elected.
 
@@ -190,7 +202,7 @@ term of office, resignation, death, or removal of a director or may appoint new
 directors to fill a previously unfilled board position, subject to the maximum
 number of directors under these Bylaws.
 
-(a) **Unexpected Vacancies.** Vacancies in the board of directors due to
+1.  **Unexpected Vacancies.** Vacancies in the board of directors due to
     resignation, death, or removal shall be filled by the board for the balance
     of the term of the director being replaced.
 
@@ -199,21 +211,21 @@ number of directors under these Bylaws.
 A director may be removed by two-thirds (2/3) vote of the board of directors
 then in office, if:
 
-(a) the director is absent and unexcused from two or more meetings of the board
+1.  the director is absent and unexcused from two or more meetings of the board
     of directors in a twelve month period. The board president is empowered to
     excuse directors from attendance for a reason deemed adequate by the board
     president. The president shall not have the power to excuse him/herself
     from the board meeting attendance and in that case, the board vice president
     shall excuse the president. Or:
 
-(b) for cause or no cause, if before any meeting of the board at which a vote
+2.  for cause or no cause, if before any meeting of the board at which a vote
     on removal will be made the director in question is given electronic or
     written notification of the board's intention to discuss her/his case and
     is given the opportunity to be heard at a meeting of the board.
 
 ### 4.07 Board of Directors Meetings.
 
-(a) Regular Meetings. The board of directors shall have a minimum of four (4)
+1.  Regular Meetings. The board of directors shall have a minimum of four (4)
     regular meetings each calendar year at times and places fixed by the board.
     Board meetings shall be held upon four (4) days notice by first-class mail,
     electronic mail, or facsimile transmission or forty-eight (48) hours notice
@@ -223,32 +235,32 @@ then in office, if:
     meetings shall specify the place, day, and hour of meeting. The purpose of
     the meeting need not be specified.
 
-(b) Special Meetings. Special meetings of the board may be called by the
+2.  Special Meetings. Special meetings of the board may be called by the
     president, vice president, secretary, treasurer, or any two (2) other
     directors of the board of directors. A special meeting must be preceded by
     at least 2 days notice to each director of the date, time, and place, but
     not the purpose, of the meeting.
 
-(c) Waiver of Notice. Any director may waive notice of any meeting, in
+3.  Waiver of Notice. Any director may waive notice of any meeting, in
     accordance with New York law.
 
 ### 4.08 Manner of Acting.
 
-(a) Quorum. A majority of the directors in office immediately before a meeting
+1.  Quorum. A majority of the directors in office immediately before a meeting
     shall constitute a quorum for the transaction of business at that meeting
     of the board. No business shall be considered by the board at any meeting
     at which a quorum is not present.
 
-(b) Majority Vote. Except as otherwise required by law or by the articles of
+2.  Majority Vote. Except as otherwise required by law or by the articles of
     incorporation, the act of the majority of the directors present at a
     meeting at which a quorum is present shall be the act of the board.
 
-(c) Hung Board Decisions. On the occasion that directors of the board are
+3.  Hung Board Decisions. On the occasion that directors of the board are
     unable to make a decision based on a tied number of votes, the president or
     treasurer in the order of presence shall have the power to swing the vote
     based on his/her discretion.
 
-(d) Participation. Except as required otherwise by law, the Articles of
+4.  Participation. Except as required otherwise by law, the Articles of
     Incorporation, or these Bylaws, directors may participate in a regular or
     special meeting through the use of any means of communication by which all
     directors participating may simultaneously communicate with each other
@@ -280,30 +292,30 @@ the extent provided in the resolution of the board, shall have all the
 authority of the board, except that no committee, regardless of board
 resolution, may:
 
-(a) take any final action on matters which also requires board members'
+1.  take any final action on matters which also requires board members'
     approval or approval of a majority of all members;
 
-(b) fill vacancies on the board of directors of in any committee which has the
+2.  fill vacancies on the board of directors of in any committee which has the
     authority of the board;
 
-(c) amend or repeal Bylaws or adopt new Bylaws;
+3.  amend or repeal Bylaws or adopt new Bylaws;
 
-(d) amend or repeal any resolution of the board of directors which by its
+5.  amend or repeal any resolution of the board of directors which by its
     express terms is not so amendable or repealable;
 
-(e) appoint any other committees of the board of directors or the members of
+6.  appoint any other committees of the board of directors or the members of
     these committees;
 
-(f) expend corporate funds to support a nominee for director; or
+7.  expend corporate funds to support a nominee for director; or
 
-(g) approve any transaction;
+8.  approve any transaction;
 
-    (i) to which the corporation is a party and one or more directors have a
+    1.  to which the corporation is a party and one or more directors have a
         material financial interest; or
 
-    (ii) between the corporation and one or more of its directors or between
-    the corporation or any person in which one or more of its directors have a
-    material financial interest.
+    2.  between the corporation and one or more of its directors or between
+        the corporation or any person in which one or more of its directors have a
+        material financial interest.
 
 ### 5.2 Meetings and Action of Committees
 
@@ -452,20 +464,20 @@ board. Such authority may be general or confined to specific instances.
 
 ### 7.05 Indemnification
 
-(a) Mandatory Indemnification. The corporation shall indemnify a director or
+1.  Mandatory Indemnification. The corporation shall indemnify a director or
     former director, who was wholly successful, on the merits or otherwise, in
     the defense of any proceeding to which he or she was a party because he or
     she is or was a director of the corporation against reasonable expenses
     incurred by him or her in connection with the proceedings.
 
-(b) Permissible Indemnification. The corporation shall indemnify a director or
+2.  Permissible Indemnification. The corporation shall indemnify a director or
     former director made a party to a proceeding because he or she is or was a
     director of the corporation, against liability incurred in the proceeding,
     if the determination to indemnify him or her has been made in the manner
     prescribed by the law and payment has been authorized in the manner
     prescribed by law.
 
-(c) Advance for Expenses. Expenses incurred in defending a civil or criminal
+3.  Advance for Expenses. Expenses incurred in defending a civil or criminal
     action, suit or proceeding may be paid by the corporation in advance of the
     final disposition of such action, suit or proceeding, as authorized by the
     board of directors in the specific case, upon receipt of (I) a written
@@ -476,7 +488,7 @@ board. Such authority may be general or confined to specific instances.
     ultimately be determined that he or she is entitled to be indemnified by
     the corporation in these Bylaws.
 
-(d) Indemnification of Officers, Agents and Employees. An officer of the
+4.  Indemnification of Officers, Agents and Employees. An officer of the
     corporation who is not a director is entitled to mandatory indemnification
     under this article to the same extent as a director. The corporation may
     also indemnify and advance expenses to an employee or agent of the
@@ -524,17 +536,17 @@ These Bylaws may be amended, altered, repealed, or restated by a vote of the
 majority of the board of directors then in office at a meeting of the Board,
 provided, however,
 
-(a) that no amendment shall be made to these Bylaws which would cause the
+1.  that no amendment shall be made to these Bylaws which would cause the
     corporation to cease to qualify as an exempt corporation under
     Section 501 (c)(3) of the Internal Revenue Code of 1986, or the
     corresponding section of any future Federal tax code; and,
 
-(b) that an amendment does not affect the voting rights of directors. An
+2.  that an amendment does not affect the voting rights of directors. An
     amendment that does affect the voting rights of directors further requires
     ratification by a two-thirds (2/3) vote of a quorum of directors at a Board
     meeting.
 
-(c) that all amendments be consistent with the Articles of Incorporation.
+3.  that all amendments be consistent with the Articles of Incorporation.
 
 ## ARTICLE IX - COUNTERTERRORISM AND DUE DILIGENCE POLICY
 
@@ -602,18 +614,18 @@ subsequently established destruction schedule for those records.
 
 #### Section 3. Minimum Retention Periods for Specific Categories
 
-(a) Corporate Documents. Corporate records include the corporation's Articles
+1.  Corporate Documents. Corporate records include the corporation's Articles
     of Incorporation, By-Laws and IRS Form 1023 and Application for Exemption.
     Corporate records should be retained permanently. IRS regulations require
     that the Form 1023 be available for public inspection upon request.
 
-(b) Tax Records. Tax records include, but may not be limited to, documents
+2.  Tax Records. Tax records include, but may not be limited to, documents
     concerning payroll, expenses, proof of contributions made by donors,
     accounting procedures, and other documents concerning the corporation's
     revenues. Tax records should be retained for at least seven years from the
     date of filing the applicable return.
 
-(c) Employment Records/Personnel Records. State and federal statutes require
+3.  Employment Records/Personnel Records. State and federal statutes require
     the corporation to keep certain recruitment, employment and personnel
     information. The corporation should also keep personnel files that reflect
     performance reviews and any complaints brought against the corporation or
@@ -624,70 +636,70 @@ subsequently established destruction schedule for those records.
     for three years. Retirement and pension records should be kept permanently.
     Other employment and personnel records should be retained for seven years.
 
-(d) Board and Board Committee Materials. Meeting minutes should be retained in
+4.  Board and Board Committee Materials. Meeting minutes should be retained in
     perpetuity in the corporation's minute book. A clean copy of all other
     Board and Board Committee materials should be kept for no less than three
     years by the corporation.
 
-(e) Press Releases/Public Filings. The corporation should retain permanent
+5.  Press Releases/Public Filings. The corporation should retain permanent
     copies of all press releases and publicly filed documents under the theory
     that the corporation should have its own copy to test the accuracy of any
     document a member of the public can theoretically produce against the
     corporation.
 
-(f) Legal Files. Legal counsel should be consulted to determine the retention
+6.  Legal Files. Legal counsel should be consulted to determine the retention
     period of particular documents, but legal documents should generally be
     maintained for a period of ten years.
 
-(g) Marketing and Sales Documents. The corporation should keep final copies of
+7.  Marketing and Sales Documents. The corporation should keep final copies of
     marketing and sales documents for the same period of time it keeps other
     corporate files, generally three years. An exception to the three-year
     policy may be sales invoices, contracts, leases, licenses, and other legal
     documentation. These documents should be kept for at least three years
     beyond the life of the agreement.
 
-(h) Development/Intellectual Property and Trade Secrets. Development documents
+8.  Development/Intellectual Property and Trade Secrets. Development documents
     are often subject to intellectual property protection in their final form
     (e.g., patents and copyrights). The documents detailing the development
     process are often also of value to the corporation and are protected as a
     trade secret where the corporation:
 
-    (i) derives independent economic value from the secrecy of the information;
-    and
-    (ii) has taken affirmative steps to keep the information confidential.
+    1.  derives independent economic value from the secrecy of the information; and
+
+    2.  has taken affirmative steps to keep the information confidential.
 
     The corporation should keep all documents designated as containing trade secret information for at least the life of the trade secret.
 
-(i) Contracts. Final, execution copies of all contracts entered into by the
+9.  Contracts. Final, execution copies of all contracts entered into by the
     corporation should be retained. The corporation should retain copies of the
     final contracts for at least three years beyond the life of the agreement,
     and longer in the case of publicly filed contracts.
 
-(j) Correspondence. Unless correspondence falls under another category listed
+10. Correspondence. Unless correspondence falls under another category listed
     elsewhere in this policy, correspondence should generally be saved for two
     years.
 
-(k) Banking and Accounting. Accounts payable ledgers and schedules should be
+11. Banking and Accounting. Accounts payable ledgers and schedules should be
     kept for seven years. Bank reconciliations, bank statements, deposit slips
     and checks (unless for important payments and purchases) should be kept for
     three years. Any inventories of products, materials, and supplies and any
     invoices should be kept for seven years.
 
-(l) Insurance. Expired insurance policies, insurance records, accident reports,
+12. Insurance. Expired insurance policies, insurance records, accident reports,
     claims, etc. should be kept permanently.
 
-(m) Audit Records. External audit reports should be kept permanently. Internal
+13. Audit Records. External audit reports should be kept permanently. Internal
     audit reports should be kept for three years.
 
 #### Section 4. Electronic Mail.
 
 E-mail that needs to be saved should be either:
 
-(i) printed in hard copy and kept in the appropriate file; or
+1.  printed in hard copy and kept in the appropriate file; or
 
-(ii) downloaded to a computer file and kept electronically or on disk as a
-separate file. The retention period depends upon the subject matter of the
-e-mail, as covered elsewhere in this policy.
+2.  downloaded to a computer file and kept electronically or on disk as a
+    separate file. The retention period depends upon the subject matter of the
+    e-mail, as covered elsewhere in this policy.
 
 ## ARTICLE XI - Transparency and Accountability, Disclosure of Financial Information With The General Public
 
@@ -698,13 +710,13 @@ and governance publicly available, Mondial Association for Tools Handling
 MathML, Ltd. practices and encourages transparency and accountability to the
 general public. This policy will:
 
-(a) indicate which documents and materials produced by the corporation are
+1.  indicate which documents and materials produced by the corporation are
     presumptively open to staff and/or the public
 
-(b) indicate which documents and materials produced by the corporation are
+2.  indicate which documents and materials produced by the corporation are
     presumptively closed to staff and/or the public
 
-(c) specify the procedures whereby the open/closed status of documents and
+3.  specify the procedures whereby the open/closed status of documents and
     materials can be altered.
 
 The details of this policy are as follow:
@@ -721,21 +733,21 @@ Mondial Association for Tools Handling MathML, Ltd. shall make
 "Widely Available" the aforementioned documents on its internet website:
 www.mathml-association.org to be viewed and inspected by the general public.
 
-(a) The documents shall be posted in a format that allows an individual using
+1.  The documents shall be posted in a format that allows an individual using
     the Internet to access, download, view and print them in a manner that
     exactly reproduces the image of the original document filed with the IRS
     (except information exempt from public disclosure requirements, such as
     contributor lists).
 
-(b) The website shall clearly inform readers that the document is available and
+2.  The website shall clearly inform readers that the document is available and
     provide instructions for downloading it.
 
-(c) Mondial Association for Tools Handling MathML, Ltd. shall not charge a fee
+3.  Mondial Association for Tools Handling MathML, Ltd. shall not charge a fee
     for downloading the information. Documents shall not be posted in a format
     that would require special computer hardware or software (other than
     software readily available to the public free of charge).
 
-(d) Mondial Association for Tools Handling MathML, Ltd. shall inform anyone
+4.  Mondial Association for Tools Handling MathML, Ltd. shall inform anyone
     requesting the information where this information can be found, including
     the web address. This information must be provided immediately for
     in-person requests and within 7 days for mailed requests.
@@ -751,47 +763,47 @@ filed with the IRS.
 
 ### 11.05 Board
 
-(a) All board deliberations shall be open to the public except where the board
+1.  All board deliberations shall be open to the public except where the board
     passes a motion to make any specific portion confidential.
 
-(b) All board minutes shall be open to the public one week after the meeting,
+2.  All board minutes shall be open to the public one week after the meeting,
     except where the board passes a motion to make any specific portion
     confidential.
 
-(c) All papers and materials considered by the board shall be open to the
+3.  All papers and materials considered by the board shall be open to the
     public following the meeting at which they are considered, except where the
     board passes a motion to make any specific paper or material confidential.
 
-(d) Attendance to all board meetings shall be opened to the public, except
+4.  Attendance to all board meetings shall be opened to the public, except
     where the board passes a motion to make any board meeting confidential.
 
 ### 11.06 Staff Records
 
-(a) All staff records shall be available for consultation by the staff member
+1.  All staff records shall be available for consultation by the staff member
     concerned or by their legal representatives.
 
-(b) No staff records shall be made available to any person outside the
+2.  No staff records shall be made available to any person outside the
     corporation except the authorized governmental agencies.
 
-(c) Within the corporation, staff records shall be made available only to those
+3.  Within the corporation, staff records shall be made available only to those
     persons with managerial or personnel responsibilities for that staff member,
     except that
 
-(d) Staff records shall be made available to the board when requested.
+4.  Staff records shall be made available to the board when requested.
 
 ### 11.07 Donor Records
 
-(a) All donor records shall be available for consultation by the members and
+1.  All donor records shall be available for consultation by the members and
     donors concerned or by their legal representatives.
 
-(b) No donor records shall be made available to any other person outside the
+2.  No donor records shall be made available to any other person outside the
     corporation except the authorized governmental agencies.
 
-(c) Within the corporation, donor records shall be made available only to those
+3.  Within the corporation, donor records shall be made available only to those
     persons with managerial or personnel responsibilities for dealing with
     those donors, except that ;
 
-(d) donor records shall be made available to the board when requested.
+4.  donor records shall be made available to the board when requested.
 
 ## ARTICLE XII - CODES OF ETHICS AND WHISTLEBLOWER POLICY
 
