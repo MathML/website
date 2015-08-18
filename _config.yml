@@ -18,7 +18,7 @@ header:
     url: /news.html
     sub:
       - title: Reports
-        url: /reports.html
+        url: /reports/index.html
       - title: Meetings
         url: /meetings/meetings.html
       - title: Twitter
