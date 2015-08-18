@@ -12,28 +12,40 @@ markdown: kramdown
 
 # Header
 header:
+  - title: Manifesto
+    url: /legal-documents/manifesto.html
   - title: News
     url: /news.html
-  - title: Manifesto
-    url: /manifesto.html
-  - title: About us
+    sub:
+      - title: Reports
+        url: /reports.html
+      - title: Meetings
+        url: /meetings/meetings.html
+      - title: Twitter
+        url: https://twitter.com/mathml3
+      - title: Reedit
+        url: https://www.reddit.com/user/mathml
+  - title: About
     url: /about.html
     sub:
       - title: Directors
         url: /directors.html
-      - title: Bylaws
-        url: /non-profit-corporate-by-laws.html
-      - title: Affiliates
-        url: /affiliates.html
-      - title: COIP
-        url: /conflict-of-interest-policy.html
-      - title: Meetings
-        url: /meetings/meetings.html
+      - title: Logos
+        url: /logo/index.html
+      - title: Documents
+        url: /legal-documents/index.html
       - title: FAQ
         url: /faq.html
-  - title: Projects
-    url: /projects.html
-  - title: Donate
-    url: /donate.html
+  - title: Affiliates
+    url: /affiliates/index.html
+    sub:
+      - title: Sponsors
+        url: /affiliates/sponsors.html
+      - title: Partners
+        url: /affiliates/partners.html
+      - title: Friends
+        url: /affiliates/friends.html
+      - title: Donate
+        url: /affiliates/donate.html
   - title: Contact
     url: /contact.html
