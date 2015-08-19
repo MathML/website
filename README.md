@@ -31,8 +31,9 @@ You need an UNIX environment with
 [xsltproc](http://xmlsoft.org/XSLT/),
 [zip](http://www.info-zip.org/Zip.html),
 [scour](http://codedread.com/scour/) and
-[sfnt2woff](https://people.mozilla.org/~jkew/woff/).
-To build everything, do:
+[sfnt2woff](https://people.mozilla.org/~jkew/woff/). You must also install
+Latin Modern Math and TeX Gyre Heros locally, since Web fonts are not supported
+by inkscape. To build everything, do:
 
     ./configure
     make all
