@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+title: Legal Documents
 ---
 
 - [Manifesto](manifesto.html)
