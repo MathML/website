@@ -1,0 +1,14 @@
+*-inline-style.svg
+*-text-as-path.svg
+*.eps
+*.otf
+*.pdf
+*.png
+*.woff
+Makefile
+autom4te.cache
+config.log
+config.status
+latinmodern-math.zip
+mathml-logos.zip
+texgyreheros.zip

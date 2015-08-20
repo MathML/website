@@ -1,0 +1,94 @@
+#!gmake
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+LATIN_MODERN_MATH_URI=http://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip
+TEX_GYRE_HEROS_URI=http://www.gust.org.pl/projects/e-foundry/tex-gyre/heros/qhv2.004otf.zip
+
+all: mathml-logos.zip \
+     webfonts/latinmodern-math.woff webfonts/texgyreheros-regular.woff
+
+mathml-logos.zip: manifest.txt \
+		 mathml-logo-240x75.png \
+		 mathml-logo-320x100.png \
+		 mathml-logo-640x200.png \
+		 mathml-logo-text-as-path.svg \
+		 mathml-logo.eps \
+		 mathml-logo.pdf \
+		 mathml-logo.svg \
+		 mathml-square-logo-128.png \
+		 mathml-square-logo-256.png \
+		 mathml-square-logo-500.png \
+		 mathml-square-logo-64.png \
+		 mathml-square-logo-text-as-path.svg \
+		 mathml-square-logo.eps \
+		 mathml-square-logo.pdf \
+		 mathml-square-logo.svg
+	@ZIP@ $@ $^
+
+%-inline-style.svg: convert-to-inline-style.xsl %.svg
+	@XSLTPROC@ $^ > $@
+
+mathml-logo-640x200.png: mathml-logo-inline-style.svg
+	@INKSCAPE@ -f $< -C -T -y 0.0 -w 640 -e $@
+
+mathml-logo-320x100.png: mathml-logo-inline-style.svg
+	@INKSCAPE@ -f $< -C -T -y 0.0 -w 320 -e $@
+
+mathml-logo-240x75.png: mathml-logo-inline-style.svg
+	@INKSCAPE@ -f $< -C -T -y 0.0 -w 240 -e $@
+
+mathml-square-logo-500.png: mathml-square-logo-inline-style.svg
+	@INKSCAPE@ -f $< -C -T -y 0.0 -w 500 -e $@
+
+mathml-square-logo-256.png: mathml-square-logo-inline-style.svg
+	@INKSCAPE@ -f $< -C -T -y 0.0 -w 256 -e $@
+
+mathml-square-logo-128.png: mathml-square-logo-inline-style.svg
+	@INKSCAPE@ -f $< -C -T -y 0.0 -w 128 -e $@
+
+mathml-square-logo-64.png: mathml-square-logo-inline-style.svg
+	@INKSCAPE@ -f $< -C -T -y 0.0 -w 64 -e $@
+
+%.pdf: %-inline-style.svg
+	@INKSCAPE@ -f $< -C -T -y 0.0 -E $@
+
+%.eps: %-inline-style.svg
+	@INKSCAPE@ -f $< -C -T -y 0.0 -A $@
+
+%-text-as-path.svg: %-inline-style.svg remove-inline-style.xsl
+	@INKSCAPE@ -f $< -C -T -y 0.0 -l $@-tmp-1
+	@XSLTPROC@ remove-inline-style.xsl $@-tmp-1 > $@-tmp-2
+	@SCOUR@ -i $@-tmp-2 -o $@ \
+		--enable-comment-stripping \
+		--enable-id-stripping
+	rm $@-tmp-1 $@-tmp-2
+	touch $@
+
+latinmodern-math.zip:
+	@WGET@ $(LATIN_MODERN_MATH_URI) -O $@
+	touch $@
+
+texgyreheros.zip:
+	@WGET@ $(TEX_GYRE_HEROS_URI) -O $@
+	touch $@
+
+webfonts/latinmodern-math.otf: latinmodern-math.zip
+	@UNZIP@ -j $< latinmodern-math-1959/otf/latinmodern-math.otf -d webfonts
+	touch $@
+
+webfonts/texgyreheros-regular.otf: texgyreheros.zip
+	@UNZIP@ -j $< texgyreheros-regular.otf -d webfonts
+	touch $@
+
+webfonts/%.woff: webfonts/%.otf
+	@SFNT2WOFF@ $<
+
+clean:
+	rm -f *.eps *.png *.pdf webfonts/*.woff webfonts/*.otf \
+	      *-text-as-path.svg \
+	      *-inline-style.svg
+
+distclean: clean
+	rm -rf *.zip autom4te.cache config.log config.status Makefile
