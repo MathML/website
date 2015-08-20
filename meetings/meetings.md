@@ -30,7 +30,8 @@ Here you can find the archives of MathML Association meetings.
 
 ## Board Meetings
 
-* [2015-20-05](board-2015-20-05.html)
+* [2015-08-05](board-2015-08-05.html)
+* [2015-05-20](board-2015-05-20.html)
 
 
 
