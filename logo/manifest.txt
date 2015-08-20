@@ -1,0 +1,20 @@
+This work is distributed under (TODO: see issue 1)
+
+This work consists of all files listed in manifest.txt.
+
+manifest.txt
+mathml-logo-240x75.png
+mathml-logo-320x100.png
+mathml-logo-640x200.png
+mathml-logo-text-as-path.svg
+mathml-logo.eps
+mathml-logo.pdf
+mathml-logo.svg
+mathml-square-logo-128.png
+mathml-square-logo-256.png
+mathml-square-logo-500.png
+mathml-square-logo-64.png
+mathml-square-logo-text-as-path.svg
+mathml-square-logo.eps
+mathml-square-logo.pdf
+mathml-square-logo.svg

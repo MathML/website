@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="fonts.css"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     width="256" height="256" viewBox="0 0 190 190">
+  <metadata>
+    <![CDATA[
+      This work is distributed under (TODO: see issue 1)
+    ]]>
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>MathML Association Logo</dc:title>
+        <cc:license rdf:resource="TODO. See https://github.com/MathML/logo/issues/1"/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title>MathML Association Square Logo</title>
+  <desc>This is an image of the mathematical formula
+  "the W-th root of open paren W raised to the power W close paren" written
+  in green on a black background that has the shape of a square with rounded
+  corner. This image suggests mathematics and the World Wide Web.</desc>
+
+  <g>
+    <!-- Black square -->
+    <rect height="190" width="190" ry="15"/>
+
+    <!-- Radical symbol -->
+    <path fill="#53c271"
+          d="m 85,25 100,0 -5,15 -80,0
+             L 65,180 30,120 10,130 5,120 45,95 60,125"/>
+
+    <!-- WWW letters -->
+    <g>
+      <text class="mathFont" font-size="37.8075px" fill="#53c271"
+            x="25" y="80">𝑤</text>
+      <text class="mathFont" font-size="75px" fill="#53c271"
+            x="85" y="150">𝑤</text>
+      <text class="mathFont" font-size="53.25px" fill="#53c271"
+            x="140" y="110">𝑤</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+/* This file is distributed under TODO: see issue 1 */
+
+@font-face {
+  font-family: LatinModernMathWOFF;
+  src: url('https://mathml.github.io/logo/webfonts/latinmodern-math.woff');
+}
+@font-face {
+  font-family: TeXGyreHerosWOFF;
+  src: url('https://mathml.github.io/logo/webfonts/texgyreheros-regular.woff');
+}
+.mathFont {
+  font-family: 'Latin Modern Math', LatinModernMathWOFF, serif;
+}
+.textFont {
+  font-family: 'TeX Gyre Heros', TeXGyreHerosWOFF, sans-serif;
+}
