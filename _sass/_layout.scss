@@ -7,9 +7,6 @@
         background: white;
     }
 
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
     text-align: center;
 
     // Positioning context for the mobile navigation icon
@@ -18,7 +15,7 @@
 
 .site-title {
     font-size: 26px;
-    line-height: 56px;
+    line-height: 32px;
     letter-spacing: -1px;
     margin-bottom: 0;
 
@@ -29,7 +26,7 @@
 }
 
 .site-nav {
-    line-height: 56px;
+    line-height: 32px;
     display:table;
     margin:0 auto;
 
