@@ -6,4 +6,4 @@
 $ jekyll server
 ~~~
 
-and open http://localhost:4000/ at yours web browser.
+and open http://localhost:4000/ in your web browser.
