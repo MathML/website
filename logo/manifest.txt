@@ -1,6 +1,24 @@
-This work is distributed under (TODO: see issue 1)
-
-This work consists of all files listed in manifest.txt.
+%% manifest.txt
+%% Copyright 2015 Mondial Association for Tools Handling MathML, Ltd.
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License, either version 1.3c
+% of this license or (at your option) any later version.
+% The latest version of this license is in
+%   http://www.latex-project.org/lppl.txt
+%
+% This work has the LPPL maintenance status `maintained'.
+%
+% The Current Maintainer of this work is Frederic Wang.
+%
+% This work consists of all files listed in manifest.txt.
+%
+% The text in the logo files are drawn using some glyphs from the Latin Modern
+% Math and TeX Gyre Heros fonts and have been converted into equivalent vector
+% and bitmap formats in order to integrate them into the logo files. The
+% original and complete version of these fonts can be found on the GUST website:
+% http://www.gust.org.pl/projects/e-foundry/lm-math
+% http://www.gust.org.pl/projects/e-foundry/tex-gyre/heros
 
 manifest.txt
 mathml-logo-240x75.png
