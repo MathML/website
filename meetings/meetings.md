@@ -1,37 +1,14 @@
 ---
 layout: page
 title: Meetings
-upcoming:
 ---
 
-# Upcoming Meetings
+# Board Meetings
 
-<!--
-Use
-
-upcoming:
-- name: Board
-  date: 2015-06-20
-
-at the YAML header
--->
-
-{% if page.upcoming %}
-{% for meeting in page.upcoming %}
--   {{ meeting.name }} at {{ meeting.date }}
-{% endfor %}
-{% else %}
-There is no meeting schedule for the upcoming weeks.
-{% endif %}
-
-# Meetings Minute Archive
-
-Here you can find the archives of MathML Association meetings.
-
-## Board Meetings
+Below are the minutes for the board meetings, where the directors discuss
+future actions for the MathML Association and vote for important decisions.
+You may also read [the wiki page with agendas for the board meetings](https://github.com/MathML/website/wiki#agendas-of-board-meetings). In general,
+board meetings are open to the public and you are welcome to attend them.
 
 * [2015-08-05](board-2015-08-05.html)
 * [2015-05-20](board-2015-05-20.html)
-
-
-
