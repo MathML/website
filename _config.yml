@@ -21,6 +21,8 @@ header:
         url: /reports/index.html
       - title: Meetings
         url: /meetings/meetings.html
+      - title: RSS feed
+        url: /feed.xml
       - title: Twitter
         url: https://twitter.com/mathml3
       - title: Reedit
