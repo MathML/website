@@ -14,6 +14,8 @@ The goals of the MathML association are:
 * Usage of the MathML language to publish educational, technical and scientific
   content in Web sites, ebooks or Web apps.
 
+For more details, take a look at our [Manifesto](/legal-documents/manifesto.html).
+
 **What are your plans to implement MathML in Web rendering engines?**
 
 Gecko (e.g. Firefox) and WebKit (e.g. Safari) are open source, have some MathML

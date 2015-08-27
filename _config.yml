@@ -3,7 +3,7 @@ title: MathML Association
 email: directors@mathml-association.org
 description: A math group acting on the Web
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://mathml-association.com" # the base hostname & protocol for your site
+url: "http://dev.mathml-association.com" # the base hostname & protocol for your site
 twitter_username: mathml3
 github_username:  mathml
 

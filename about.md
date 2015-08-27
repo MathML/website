@@ -4,14 +4,13 @@ title: About us
 ---
 
 The need to write mathematics dates back to the creation of the Web
-by researchers at CERN where it was intended to be use to exchange
+by researchers at CERN where it was intended to be used to exchange
 scientific documents. A `<MATH>` tag was proposed in a HTML 3.0 Draft from
 1995 and the MathML 1.0 standard was released in 1998.
 Years later, MathML is not supported consistently and reliably by all Web
 rendering engines, assistive technologies or
 mathematical tools. We still face a chicken-and-egg problem where some browser
-vendors are reluctant to put effort on native MathML developments claiming that
-it represents a low market with small return on investment while while other
+vendors are reluctant to put effort on native MathML developments while other
 companies, organizations or individuals have kept promoting their own hacks
 (PNG/SVG images of formula, CSS stylesheets,
 Javascript code for mathematical layout...) to workaround the lack of MathML
@@ -37,7 +36,7 @@ Given the above, it appeared necessary to:
   developments in Web rendering engines. The various volunteers who have worked
   on native MathML implementations and the successful crowdfunding project
   [Mathematics in ebooks](http://www.ulule.com/mathematics-ebooks/) showed that
-  there is a strong intererest. However, a legal entity seems necessary to
+  there is a strong interest. However, a legal entity seems necessary to
   encourage the participation of major actors and go farther than an individual
   or short-term effort.
 

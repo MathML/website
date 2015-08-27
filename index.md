@@ -13,6 +13,8 @@ State of New York, with the following goals:
 * Usage of the MathML language to publish educational, technical and scientific
   content in Web sites, ebooks or Web apps.
 
+For more details, take a look at our [Manifesto](/legal-documents/manifesto.html).
+
 ## Last posts
 
 <table style="width:100%;">

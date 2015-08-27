@@ -24,14 +24,14 @@ directors:
   twitter:
   website:
 - name: Raniere Silva
-  description: Raniere Silva has a BSc in applied mathematics at University of Campinas and involved with MathML as a enthusiastic. He is also a core developer for Software Carpentry.
+  description: Raniere Silva holds a BSc in applied mathematics from University of Campinas and is involved with MathML as an enthusiast. He is also a core developer for Software Carpentry.
   photo: img/people/silva.raniere.jpg
   email: raniere@ime.unicamp.br
   github: r-gaia-cs
   twitter: rgaiacs
   website: http://rgaiacs.com
 - name: Frédéric Wang
-  description: Frédéric Wang has been involved in math-on-the-web projects for several years, including MathML implementations of web rendering engines. He holds a master degree in pure mathematics and an engineer's degree in computer science.
+  description: Frédéric Wang has been involved in math-on-the-web projects for several years and has contributed to MathML support of web engines and accessibility tools. He holds a master degree in pure mathematics from University of Paris VI and an engineer's degree in computer science from ENSIIE.
   photo: img/people/wang.frederic.jpg
   email:
   github: fred-wang
