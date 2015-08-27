@@ -6,6 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://dev.mathml-association.org" # the base hostname & protocol for your site
 twitter_username: mathml3
 github_username:  mathml
+reedit_username: mathml
 
 # Build settings
 markdown: kramdown
@@ -21,8 +22,6 @@ header:
         url: /reports/index.html
       - title: Meetings
         url: /meetings/meetings.html
-      - title: RSS feed
-        url: /feed.xml
       - title: Twitter
         url: https://twitter.com/mathml3
       - title: Reedit

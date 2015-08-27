@@ -15,7 +15,7 @@ State of New York, with the following goals:
 
 For more details, take a look at our [Manifesto](/legal-documents/manifesto.html).
 
-## Last posts
+## Latest Updates
 
 <table style="width:100%;">
 <tbody>

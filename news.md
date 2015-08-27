@@ -3,8 +3,6 @@ layout: page
 title: News
 ---
 
-We provide an [RSS feed](/feed.xml) in case you want to follow us.
-
 <table style="width:100%;">
 <tbody>
 {% for post in site.posts %}
