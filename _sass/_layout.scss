@@ -2,15 +2,17 @@
  * Site header
  */
 .site-header {
-    background: linear-gradient(to bottom, white 70%, $scheme-color-1);
-    @include media-query($on-palm) {
-        background: white;
-    }
-
     text-align: center;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+
+   .site-nav-wrapper {
+      background: linear-gradient(to bottom, white, 10%, $scheme-color-1);
+      @include media-query($on-palm) {
+          background: white;
+      }
+   }
 }
 
 .site-title {
@@ -35,6 +37,7 @@
     }
 
     ul {
+        margin: 0;
         padding: 0;
         list-style: none;
     }
