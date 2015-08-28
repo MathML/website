@@ -55,7 +55,6 @@
         display: block;
         text-decoration: none;
         padding: 5px 15px 5px 15px;
-        margin-left: 1px;
         color: white;
     }
     ul li a:hover {
@@ -69,7 +68,7 @@
     li:hover li {
         float: none;
     }
-    li:hover a { background: $scheme-color-1; }
+    li:hover ul li { background: $scheme-color-1; }
     li:hover li a:hover { background: white; }
 
     @include media-query($on-palm) {
