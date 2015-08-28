@@ -7,7 +7,7 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 
-   .wrapper {
+   .site-nav-wrapper {
       background: linear-gradient(to bottom, white, 10%, $scheme-color-1);
       @include media-query($on-palm) {
           background: white;
