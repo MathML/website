@@ -10,7 +10,8 @@ This page contains a list of logos for the MathML Association in
 different formats and sizes. You can also download the SVG, PNG, EPS and
 PDF logos in a single [ZIP archive](mathml-logos.zip).
 
-The logos are distributed under (TODO see issue \#1)
+**Note: The license of the logo has not been decided yet. We plan to do so
+  in the next board meeting and we will provide more information later.**
 
 Rectangular Logo (Image + Trademark)
 ------------------------------------

@@ -12,9 +12,9 @@ rendering engines, assistive technologies or
 mathematical tools. We still face a chicken-and-egg problem where some browser
 vendors are reluctant to put effort on native MathML developments while other
 companies, organizations or individuals have kept promoting their own hacks
-(PNG/SVG images of formula, CSS stylesheets,
-Javascript code for mathematical layout...) to workaround the lack of MathML
-support in browsers.
+to workaround the lack of MathML support in browsers:
+PNG/SVG images of formula, CSS stylesheets, Javascript code for mathematical
+layout...
 
 This means that today, all browsers do not support the simplest Web features
 like CSS styling to select a mathematical font for your formulas, Javascript
@@ -26,7 +26,7 @@ responsive layout (e.g. automatic linebreaking of mathematical formulas),
 internationalization (e.g. formulas
 with Arabic characters written from right-to-left and using typographic
 ligatures), these features are hardly possible for mathematics without proper
-integration in the web engines. Many other features like copy and paste
+integration into the web engines. Many other features like copy and paste
 transfers, search engines, feed aggregators, emails, etc are limited by the
 lack of MathML support or by the use of non-standard alternatives.
 
