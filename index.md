@@ -13,7 +13,9 @@ State of New York, with the following goals:
 * Usage of the MathML language to publish educational, technical and scientific
   content in Web sites, ebooks or Web apps.
 
-## Last posts
+For more details, take a look at our [Manifesto](/legal-documents/manifesto.html).
+
+## Latest Updates
 
 <table style="width:100%;">
 <tbody>
@@ -31,7 +33,6 @@ State of New York, with the following goals:
 </td>
 <td style="width:40%;">
 <time datetime="{{ post.date | date_to_xmlschema }}" class="post-time">{{ post.date | date: "%d %b %Y" }}</time>{% if post.modified %}{% if modifiedtime != posttime %} and <code>last modified on <time datetime="{{ post.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.modified | date: "%d %b %Y" }}</time></code>{% endif %}{% endif %}
-in <span class="post-tags">{% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" data-toggle="tooltip" title="Other posts from the {{ tag | capitalize }} category" rel="tag">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;&bull;&nbsp;{% endunless %}{% endfor %}</span> by <span itemprop="name" class="fn">{% if page.author %}{{ page.author }}{% else %}<a href="{{ site.url }}/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a>{% endif %}</span>
 </div>
 </td>
 {% endfor %}

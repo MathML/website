@@ -12,13 +12,21 @@
 
       <div class="footer-col  footer-col-2">
         <ul class="social-media-list">
+          <li>
+            <a href="/feed.xml">
+              <span class="icon">
+                {% include rss-icon.html %}
+              </span>
+              <span>News Feed</span>
+            </a>
+          </li>
           {% if site.email %}
           <li>
             <a href="mailto:{{ site.email }}">
               <span class="icon">
                 {% include email-icon.html %}
               </span>
-              <span class="username">{{ site.email }}</span>
+              <span>Contact us</span>
             </a>
           </li>
           {% endif %}
@@ -28,12 +36,10 @@
               <span class="icon">
                 {% include github-icon.html %}
               </span>
-
-              <span class="username">{{ site.github_username }}</span>
+              <span>GitHub</span>
             </a>
           </li>
           {% endif %}
-
           {% if site.twitter_username %}
           <li>
             <a href="https://twitter.com/{{ site.twitter_username }}">
@@ -41,7 +47,7 @@
                 {% include twitter-icon.html %}
               </span>
 
-              <span class="username">{{ site.twitter_username }}</span>
+              <span>Twitter</span>
             </a>
           </li>
           {% endif %}
