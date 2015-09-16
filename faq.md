@@ -18,23 +18,28 @@ For more details, take a look at our [Manifesto](/legal-documents/manifesto.html
 
 **What are your plans to implement MathML in Web rendering engines?**
 
+In general, we started to write a technical specification
+"[MathML in HTML5](http://www.mathml-association.org/MathMLinHTML5/)" to
+describe how to implement a core subset of MathML 3 in a way that is both
+compatible with the existing browser codebase and with the requirement of
+"high-quality" mathematical rendering. We expect that it will be instrumental
+in getting native MathML implementations accepted by browser vendors.
+
 Gecko (e.g. Firefox) and WebKit (e.g. Safari) are open source, have some MathML
 support and there are developers from companies working on these rendering
 engines who accept to review patches. Hence we will continue to collaborate
 with them to fix bugs and improve the MathML support.
 
-Blink (e.g. Chrome) is open source but Google has not expressed interest
-to support native MathML until it becomes more popular on the Web and so the
-short-term strategy is probably to develop a fork of Blink. Because the Blink
-codebase is similar to WebKit, we can rely on the WebKit implementation. We
-want to get in touch with other companies working on the Blink codebase
-(Igalia, Opera, Vivaldi, etc).
+Blink (e.g. Chrome) is open source but Google has indicated they will only
+consider native MathML once it becomes more popular on the Web. Hence we instead
+want to get in touch with other companies working on the Blink codebase and see
+if they are interested in starting a development branch with MathML support.
+Fortunately, we can rely on the effort made for WebKit.
 
 Trident (Internet Explorer) is proprietary so we do not have any control on
-the codebase. Microsoft has kept closing the requests for MathML support but
-an implemention of "Office MathML" exists in Microsoft Office and could be
-used for Trident. Hence we would like to convince Microsoft to give a this a
-try.
+the codebase. According to [a blog post from Murray Sargent](http://blogs.msdn.com/b/murrays/archive/2014/04/27/opentype-math-tables.aspx), an implemention
+of "Office MathML" exists in Microsoft Office and could be used for Trident.
+Hence we would like to convince Microsoft to give a this a try.
 
 **Where can I vote for MathML support in Chrome and Internet Explorer?**
 
