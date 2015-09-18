@@ -7,14 +7,27 @@
      width="640" height="200" viewBox="0 0 640 200">
   <metadata>
     <![CDATA[
-      This work is distributed under (TODO: see issue 1)
+%% mathml-logo.svg
+%% Copyright 2015 Mondial Association for Tools Handling MathML, Ltd.
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License, either version 1.3c
+% of this license or (at your option) any later version.
+% The latest version of this license is in
+%   http://www.latex-project.org/lppl.txt
+%
+% This work has the LPPL maintenance status `maintained'.
+%
+% The Current Maintainer of this work is Frederic Wang.
+%
+% This work consists of all files listed in manifest.txt.
     ]]>
     <rdf:RDF>
       <cc:Work rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <dc:title>MathML Association Logo</dc:title>
-        <cc:license rdf:resource="TODO. See https://github.com/MathML/logo/issues/1"/>
+        <cc:license rdf:resource="http://www.latex-project.org/lppl.txt"/>
       </cc:Work>
     </rdf:RDF>
   </metadata>
