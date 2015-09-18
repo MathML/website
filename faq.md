@@ -55,3 +55,18 @@ As stated on the [MathJax website](https://www.mathjax.org), "The core of the Ma
 We are happy that MathJax has already embraced MathML, which is used as its core formula representation language. While MathJax has provided an invaluable bridge solution for displaying beautiful math-on-the-web today, the MathML association is focusing on advancing the state of web mathematics tomorrow.
 
 Our goal towards standards-compliant web mathematics, via native MathML support in all browsers, aims at faster rendering, better accessibility and towards building a healthy ecosystem of math web application development. [Quoting MathJax's Manager](http://exchanges.wiley.com/blog/2015/03/02/making-math-and-science-first-class-citizens-on-the-web/), "While we are proud of our accomplishments at MathJax, we know that we can only provide half the solution: native browser support must be the goal". Consequently, we hope that the MathJax Consortium will support our manifesto and could become a MathML affiliate.
+
+**How is the MathML association different from the W3C Math Working Group?**
+
+The [World Wide Web Consortium (W3C)](http://w3.org) is an "international community that
+develops open standards to ensure the long-term growth of the Web". The
+[Math working Group (Math WG)](http://www.w3.org/Math/) instantiates this to "facilitate
+and promote the use of the Web for mathematical and scientific communication". The Math WG
+has developed the MathML representation langauge for the presentation and content of
+mathematical formulae since 1997, the current recommendation is
+[MathML3](http://www.w3.org/TR/MathML3/) (April 2014), which was approved as ISO/IEC
+International Standard in June 2015.
+
+The MathML association wants to promote the standards (W3C recommendations) developed by
+the W3C Math WG, support their implementation in web technologies, and raise public
+awareness about MathML.
