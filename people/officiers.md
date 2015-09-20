@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Officiers
+title: Officers
 officers:
   - name: Michael Kohlhase
     role: President
