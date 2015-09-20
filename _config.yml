@@ -1,6 +1,7 @@
 # Site settings
 title: MathML Association
-email: directors@mathml-association.org
+email: info@mathml-association.org
+emaildomain: mathml-association.org
 description: A math group acting on the Web
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://mathml-association.org" # the base hostname & protocol for your site
