@@ -29,8 +29,8 @@ header:
   - title: About
     url: /about.html
     sub:
-      - title: Directors
-        url: /directors.html
+      - title: People
+        url: /people/index.html
       - title: Logos
         url: /logo/index.html
       - title: Documents

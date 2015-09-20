@@ -43,7 +43,7 @@ directors:
 <div class="people">
 <div class="people-photo">
 {%if people.photo %}
-<img src="{{people.photo}}">
+<img src="/{{people.photo}}">
 {% endif %}
 </div>
 <div class="people-info">
