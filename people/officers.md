@@ -7,6 +7,7 @@ officers:
     email: president
   - name: Frédéric Wang
     role: Vice-President
+    email: vice-president
   - name: Deyan Ginev
     role: Secretary
     email: secretary
@@ -17,10 +18,6 @@ officers:
 
 <ul>
 {% for officer in page.officers %}
-{% if officer.email %}
 <li><a href="mailto:{{officer.email}}@{{site.emaildomain}}">{{officer.name}}</a>, {{officer.role}}</li>
-{% else %}
-<li>{{officer.name}}, {{officer.role}}</li>
-{% endif %}
 {% endfor %}
 </ul>
