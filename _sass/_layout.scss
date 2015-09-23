@@ -8,6 +8,7 @@
     position: relative;
 
    .site-nav-wrapper {
+      background: $scheme-color-1;
       background: linear-gradient(to bottom, white, 10%, $scheme-color-1);
       @include media-query($on-palm) {
           background: white;
