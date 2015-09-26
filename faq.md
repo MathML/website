@@ -21,7 +21,7 @@ For more details, take a look at our [Manifesto](/legal-documents/manifesto.html
 
 ## 2. What are your plans to implement MathML in Web rendering engines?
 
-In general, we started to write a technical specification
+In general, we started to write a detailed technical document
 "[MathML in HTML5](http://www.mathml-association.org/MathMLinHTML5/)" to
 describe how to implement a core subset of MathML 3 in a way that is both
 compatible with the existing browser codebase and with the requirement of
