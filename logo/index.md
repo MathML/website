@@ -10,8 +10,60 @@ This page contains a list of logos for the MathML Association in
 different formats and sizes. You can also download the SVG, PNG, EPS and
 PDF logos in a single [ZIP archive](mathml-logos.zip).
 
-**Note: The license of the logo has not been decided yet. We plan to do so
-  in the next board meeting and we will provide more information later.**
+The files listed in [manifest.txt](./manifest.txt)
+constitute a "Work" that may be distributed and/or modified under
+[LaTeX Project Public License](http://latex-project.org/lppl/)
+either version 1.3c of this license or (at your option) any later version.
+Here are some suggestions to easily use the logos in compliance with the
+license:
+
+- Directly use the "Work" distributed by the MathML Association (clause 1 of
+  the license). For example, if you want to insert the image in your Web page,
+  you can just use the URLs of the website of the MathML Association.
+- Distribute an unmodified copy of the "Work" (clause 2 of the license).
+  For example, extract the whole ZIP archive on your Web server to use
+  the SVG or PNG logos in your Web pages.
+- Distribute a "Derived Work" consisting of one or more unmodified image files
+  together with a modified `manifest.txt` listing  only the files kept from the
+  original "Work" (clause 5 of the license). Update `manifest.txt` to clearly
+  state that the "Derived Work" is only a subset of the original "Work"
+  (clause 6.a of the license) and to provide a link to the present web page
+  (clause 6.d.2 of the license). For example, if you only wish to insert the EPS
+  logos in your LaTeX documents, you could distribute them with the following
+  `manifest.txt` file:
+
+      %% manifest.txt
+      %% Copyright 2015 Mondial Association for Tools Handling MathML, Ltd.
+      %
+      % This work may be distributed and/or modified under the
+      % conditions of the LaTeX Project Public License, either version 1.3c
+      % of this license or (at your option) any later version.
+      % The latest version of this license is in
+      %   http://www.latex-project.org/lppl.txt
+      %
+      % This work has the LPPL maintenance status `maintained`.
+      %
+      % The Current Maintainer of this work is [PUT YOUR NAME HERE].
+      %
+      % This work consists of all files listed in manifest.txt.
+      %
+      % This work consists of a subset of the "MathML Association logos".
+      % You can get a copy of the original work on the website of the
+      % MathML Association: http://mathml-association.org/logo/
+      %
+      % The manifest.txt file has been modified in order to enumerate only the subset
+      % of files distributed in this work.
+      %
+      % The text in the logo files are drawn using some glyphs from the Latin Modern
+      % Math and TeX Gyre Heros fonts and have been converted into equivalent vector
+      % and bitmap formats in order to integrate them into the logo files. The
+      % original and complete version of these fonts can be found on the GUST website:
+      % http://www.gust.org.pl/projects/e-foundry/lm-math
+      % http://www.gust.org.pl/projects/e-foundry/tex-gyre/heros
+      %
+      manifest.txt
+      mathml-logo.eps
+      mathml-square-logo.eps
 
 Rectangular Logo (Image + Trademark)
 ------------------------------------

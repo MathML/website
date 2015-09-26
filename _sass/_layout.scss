@@ -8,6 +8,7 @@
     position: relative;
 
    .site-nav-wrapper {
+      background: $scheme-color-1;
       background: linear-gradient(to bottom, white, 10%, $scheme-color-1);
       @include media-query($on-palm) {
           background: white;
@@ -184,10 +185,14 @@
     @extend %clearfix;
 }
 
-.footer-col {
-    float: left;
+.footer-col,
+.footer-multi-col {
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
+}
+
+.footer-multi-col {
+    float: left;
 }
 
 .footer-col-1 {

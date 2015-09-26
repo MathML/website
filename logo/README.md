@@ -16,7 +16,7 @@ These fonts are distributed under the [LPPL with renaming requirements](http://w
 read the font metadata for details.
 
 The files packaged in the ZIP archive and listed in manifest.txt are distributed
-under the (TODO: see issue 1).
+under the LaTeX Project Public License.
 
 # Build instructions
 
