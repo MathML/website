@@ -3,7 +3,7 @@ layout: page
 title: Friends
 ---
 
-Thank you to the crowd of MathML enthousiasts for their volunteer work in
+Thank you to the crowd of MathML enthusiasts for their volunteer work in
 MathML projects and for spreading the word about native MathML support...
 You're awesome!
 
@@ -23,3 +23,4 @@ Association**, including notifications of changes to the terms of the
 
 Finally, you are also encouraged to
 [subscribe to this public MathML Friends mailing list](http://lists.mathml-association.org/mailman/listinfo/friends) now so that you can keep updated about latest news and discuss with other members of the MathML community!
+
