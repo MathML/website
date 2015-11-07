@@ -5,7 +5,11 @@ title: Friends
 
 Thank you to the crowd of MathML enthusiasts for their volunteer work in
 MathML projects and for spreading the word about native MathML support...
-You're awesome!
+You're awesome! Special thanks to our current (7th November 2015) friends:
+
+* Hang Yuan (2nd year computer science student at Jacobs University Bremen)
+*	[Franz-Josef Schmitt](http://www.uniwind.org/schmitt) (PostDoc at TU Berlin, researcher in bionergetics, teachon mathematics and chemistry)
+*	Howard Cohl (Mathematician at the National Institute of Standards and Technology (NIST), Gaithersburg, MD, USA)
 
 ## Becoming a MathML Friend
 
