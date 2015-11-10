@@ -13,7 +13,7 @@ one to contribute at the desired level:
   making an annual contribution and possibly getting involved in the
   MathML Advisory Board.
 
-- [Partners](partners.html) are companies or organizations with
+- [Partners](partners.html) are companies, organizations, or individuals with
   technical expertise in open source development of Web engines or related
   technologies (math fonts, accessibility tools etc). They are privileged
   interlocutors for technical discussions, collaborations and contracts on
