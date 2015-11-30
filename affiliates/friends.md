@@ -23,7 +23,7 @@ including at least your name and a brief introduction.
 Note that your message will be stored on our server and will only be accessible
 to the [directors](/people/directors.html).
 
-Once we receive your message, we will try to come back to you within 24 hours.
+Once we receive your message, we will try to come back to you within three business days.
 If your application is approved, **your name and the brief introduction will be
 used on this Friends page and for public announcements**. Also, note that
 **your email address will be used for communication with the MathML
