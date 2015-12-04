@@ -10,6 +10,7 @@ You're awesome! Special thanks to our current (7th November 2015) friends:
 *	[Howard Cohl](http://www.nist.gov/itl/math/msg/howard-s-cohl.cfm) (Mathematician in the Applied and Computational Mathematics Division at the National Institute of Standards and Technology, Gaithersburg, MD, USA)
 * [Bruce Miller](http://math.nist.gov/~BMiller/) (Software Developer/Architect in the Applied and Computational Mathematics Division at National Institute of Standards and Technology, Gaithersburg, MD, USA)
 *	[Franz-Josef Schmitt](http://www.uniwind.org/schmitt) (PostDoc at TU Berlin, researcher in bioenergetics, teaching mathematics and chemistry)
+*	[Abdou Youssef](http://www.seas.gwu.edu/~ayoussef/) (Professor of Computer Science at the George Washington University, USA.)
 * Hang Yuan (2nd year computer science student at Jacobs University Bremen)
 
 ## Becoming a MathML Friend
