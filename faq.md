@@ -46,7 +46,7 @@ Hence we would like to convince Microsoft to give a this a try.
 
 ## 3. Where can I vote for MathML support in Chrome and Internet Explorer?
 
-Try to vote for [MathML in Chrome](https://code.google.com/p/chromium/issues/detail?id=152430), [MathML in Internet Explorer (developer feedback)](https://status.modern.ie/mathml) and [MathML in Internet Explorer (user feedback)](https://windows.uservoice.com/forums/265757-windows-feature-suggestions/suggestions/6592643-support-for-html5-s-mathml).
+Try to vote for [MathML in Chrome](https://code.google.com/p/chromium/issues/detail?id=152430) and [MathML in Internet Explorer (developer feedback)](https://status.modern.ie/mathml).
 
 ## 4. How is the MathML association different from the OpenMath Society?
 
