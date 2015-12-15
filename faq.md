@@ -39,14 +39,14 @@ want to get in touch with other companies working on the Blink codebase and see
 if they are interested in starting a development branch with MathML support.
 Fortunately, we can rely on the effort made for WebKit.
 
-Trident (Internet Explorer) is proprietary so we do not have any control on
-the codebase. According to [a blog post from Murray Sargent](http://blogs.msdn.com/b/murrays/archive/2014/04/27/opentype-math-tables.aspx), an implemention
-of "Office MathML" exists in Microsoft Office and could be used for Trident.
-Hence we would like to convince Microsoft to give a this a try.
+EdgeHTML (Microsoft Edge) is proprietary so we do not have any control on
+the codebase. Note that according to [a blog post from Murray Sargent](http://blogs.msdn.com/b/murrays/archive/2014/04/27/opentype-math-tables.aspx), an
+implemention of "Office MathML" exists in Microsoft Office and could be use for
+Microsoft's browser. We would very like to convince Microsoft to give a try.
 
-## 3. Where can I vote for MathML support in Chrome and Internet Explorer?
+## 3. Where can I vote for MathML support in Chrome and Microsoft Edge?
 
-Try to vote for [MathML in Chrome](https://code.google.com/p/chromium/issues/detail?id=152430) and [MathML in Internet Explorer (developer feedback)](https://status.modern.ie/mathml).
+Try to vote for [MathML in Chrome](https://code.google.com/p/chromium/issues/detail?id=152430) and [MathML in Microsoft Edge](https://dev.windows.com/en-us/microsoft-edge/platform/status/mathml).
 
 ## 4. How is the MathML association different from the OpenMath Society?
 
