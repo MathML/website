@@ -510,7 +510,7 @@ Incorporation and Bylaws as amended to date.
 
 ### 8.02 Fiscal Year
 
-The fiscal year of the corporation shall be from January 1 to December 31 of
+The fiscal year of the corporation shall be from February 1 to January 31 of
 each year.
 
 ### 8.03 Conflict of Interest
