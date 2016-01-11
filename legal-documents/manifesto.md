@@ -12,7 +12,7 @@ communication is well-supported in conventional publishing, but *communication o
 mathematics on the web does not make use of the inherent structure* of mathematical
 knowledge in general and mathematical formulae in particular.
 
-Hence we, mathematical practitiners, educators, tool developers, and MathML enthusiasts
+Hence we, mathematical practitioners, educators, tool developers, and MathML enthusiasts
 postulate the following agenda for supporting mathematics more fully on the Web and thus
 *bringing the communication of mathematical knowledge to the new millennium*.
 
