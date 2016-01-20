@@ -25,8 +25,8 @@ header:
         url: /meetings/meetings.html
       - title: Twitter
         url: https://twitter.com/mathml3
-      - title: Reedit
-        url: https://www.reddit.com/user/mathml
+      - title: Activities
+        url: https://github.com/MathML/website/wiki
   - title: About
     url: /about.html
     sub:
