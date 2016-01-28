@@ -6,6 +6,7 @@ title: Friends
 Thank you to the crowd of MathML enthusiasts for their volunteer work in
 MathML projects and for spreading the word about native MathML support...
 You're awesome! Special thanks to our current (7th November 2015) friends:
+
 *	[Corinna Breitinger](http://www.isg.uni-konstanz.de/people/corinna-breitinger) (Researcher at the Information Science Group in the Department of Computer and Information Science at the University of Konstanz, Germany)
 *	[Howard Cohl](http://www.nist.gov/itl/math/msg/howard-s-cohl.cfm) (Mathematician in the Applied and Computational Mathematics Division at the National Institute of Standards and Technology, Gaithersburg, MD, USA)
 *	Adrian Fellhauer (Student of mathematics at Technical University Munich)
