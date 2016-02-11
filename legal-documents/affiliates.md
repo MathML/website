@@ -57,8 +57,8 @@ discussions, collaborating on projects related to activities of the
 MathML Association as a volunteer or by making donations to the MathML
 Association. They shall get the following benefits:
 
-- name displayed on the website of the MathML Association in the list of
-  "MathML Friends"
+- name, brief introduction and optional link displayed on the website of the
+  MathML Association in the list of "MathML Friends"
 - one-sentence introduction on the MathML Association news feed in grouped
   announcement of new affiliates.
 - opportunity to get nominated as an Advisory Board member
