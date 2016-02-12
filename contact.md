@@ -3,6 +3,10 @@ layout: page
 title: Contact
 ---
 
-Please send an email to [{{site.email}}](mailto:{{site.email}}) for general
-inquiries. If you prefer, you can also write to a specific
-[board officer](/people/officers.html).
+Mondial Association For Tools Handling MathML, Ltd.
+
+[{{site.email}}](mailto:{{site.email}})
+
+Deyan Ginev<br/>
+40 Waterside Plaza 26D<br/>
+New York, New York, 10010
