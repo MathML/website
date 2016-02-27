@@ -41,6 +41,9 @@ The goals of Mondial Association for Tools Handling MathML, Ltd are:
 3.  Usage of the MathML language to publish educational, technical and
     scientific content in Web sites, ebooks or Web apps.
 
+4.  Other developmental and promotional activities to further the dissemination
+    of mathematical content in Web sites, ebooks or Web apps.
+
 ### 2.02 Powers
 
 The corporation shall have the power, directly or indirectly, alone or in
