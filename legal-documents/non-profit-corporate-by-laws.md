@@ -791,7 +791,7 @@ filed with the IRS.
 
 4.  donor records shall be made available to the board when requested.
 
-## ARTICLE XII - CODES OF ETHICS AND WHISTLEBLOWER POLICY
+## ARTICLE XII - CODE OF ETHICS AND WHISTLEBLOWER POLICY
 
 ### 12.01 Purpose
 
@@ -817,8 +817,9 @@ with the vice president or the board president.
 ### 12.03 Acting in Good Faith
 
 Anyone filing a complaint concerning a violation or suspected violation of the
-Code must be acting in good faith and have reasonable grounds for believing the
-information disclosed indicates a violation of the Code. Any allegations that
+this Code of ARTICLE XII must be acting in good faith and have reasonable
+grounds for believing the information disclosed indicates such violation.
+Any allegations that
 prove not to be substantiated and which prove to have been made maliciously or
 knowingly to be false shall be viewed as a serious disciplinary offense.
 
