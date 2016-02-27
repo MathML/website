@@ -103,7 +103,8 @@ if a conflict of interest exists.
 1.  An interested person may make a presentation at the governing board or
     committee meeting, but after the presentation, he/she shall leave the
     meeting during the discussion of, and the vote on, the transaction or
-    arrangement involving the possible conflict of interest.
+    arrangement involving the possible conflict of interest. By no means
+    shall he/she influence improperly the deliberation of that vote.
 
 2.  The chairperson of the governing board or committee shall, if appropriate,
     appoint a disinterested person or committee to investigate alternatives to
