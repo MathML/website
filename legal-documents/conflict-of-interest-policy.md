@@ -181,19 +181,9 @@ their knowledge, any potential conflict of interest.
 
 ## ARTICLE VII - PERIODIC REVIEWS
 
-To ensure the corporation operates in a manner consistent with charitable
-purposes and does not engage in activities that could jeopardize its tax-exempt
-status, periodic reviews shall be conducted. The periodic reviews shall, at a
-minimum, include the following subjects:
-
-1.  Whether compensation arrangements and benefits are reasonable, based on
-    competent survey information and the result of arm's length bargaining.
-
-2.  Whether partnerships, joint ventures, and arrangements with management
-    corporations conform to the corporation's written policies, are properly
-    recorded, reflect reasonable investment or payments for goods and services,
-    further charitable purposes and do not result in inurnment, impermissible
-    private benefit or in an excess benefit transaction.
+The board will, on an ongoing basis, collect information about conflict of
+interests in transactions with the corporation and will act in accordance with
+the conflict of interest policy to remedy or eliminate them.
 
 ## ARTICLE VIII - USE OF OUTSIDE EXPERTS
 
