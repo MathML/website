@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The MathML Manifesto
+title: The MathML Manifesto<br/>(Mission Statement)
 ---
 
 #### 0) Preamble
