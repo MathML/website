@@ -174,18 +174,10 @@ powers shall contain:
 
 ## ARTICLE VI - ANNUAL STATEMENTS
 
-Each director, principal officer and member of a committee with governing board
-delegated powers shall annually sign a statement which affirms such person:
-
-1.  Has received a copy of the conflicts of interest policy,
-
-2.  Has read and understands the policy,
-
-3.  Has agreed to comply with the policy, and
-
-4.  Understands that the corporation is charitable and in order to maintain its
-    federal tax exemption it must engage primarily in activities which
-    accomplish one or more of its tax-exempt purposes.
+Prior to their initial election or appointment, and annually thereafter,
+directors and officers shall complete, sign and submit to the
+secretary of the corporation a written statement identifying, to the best of
+their knowledge, any potential conflict of interest.
 
 ## ARTICLE VII - PERIODIC REVIEWS
 
