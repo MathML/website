@@ -546,13 +546,14 @@ financing, which include, but are not limited to, various sanctions programs
 administered by the Office of Foreign Assets Control (OFAC) in regard to its
 foreign activities.
 
-## ARTICLE X - DOCUMENT RETENTION POLICY
+## ARTICLE X - PRIVACY AND DOCUMENT RETENTION POLICY
 
 ### 10.01 Purpose
 
-The purpose of this document retention policy is establishing standards for
-document integrity, retention, and destruction and to promote the proper
-treatment of Mondial Association for Tools Handling MathML, Ltd. records.
+The purpose of this privacy and document retention policy is establishing
+standards for document integrity, retention, and destruction and to promote the
+proper treatment of Mondial Association for Tools Handling MathML, Ltd. records.
+It also specifies how Personally Identifiable Information shall be handled.
 
 ### 10.02 Policy
 
@@ -612,7 +613,8 @@ subsequently established destruction schedule for those records.
     Other employment and personnel records should be retained for seven years.
 
 4.  Board and Board Committee Materials. Meeting minutes should be retained in
-    perpetuity in the corporation's minute book. A clean copy of all other
+    perpetuity in one or more secure, digital repositories posted publicly or
+    known to the secretary. A clean copy of all other
     Board and Board Committee materials should be kept for no less than three
     years by the corporation.
 
@@ -675,6 +677,15 @@ E-mail that needs to be saved should be either:
 2.  downloaded to a computer file and kept electronically or on disk as a
     separate file. The retention period depends upon the subject matter of the
     e-mail, as covered elsewhere in this policy.
+
+#### Section 5. Personally Identifiable Information
+
+Personally Identifiable Information of donors, officers or affiliates should be
+kept in a secure (encrypted or otherwise) data store and shall not be made
+available to any person outside the corporation except the authorized
+governmental agencies. However, these restrictions do not apply to any
+Personally Identifiable Information whose owner granted
+Mondial Association for Tools Handling MathML, Ltd. the right to make it public.
 
 ## ARTICLE XI - Transparency and Accountability, Disclosure of Financial Information With The General Public
 
