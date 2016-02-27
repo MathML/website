@@ -41,34 +41,6 @@ The goals of Mondial Association for Tools Handling MathML, Ltd are:
 3.  Usage of the MathML language to publish educational, technical and
     scientific content in Web sites, ebooks or Web apps.
 
-<!--
-Transcontinental Humanitarian Corporation's purpose is to address, educate,
-coordinate, and provide aid and relief to eradicate chronic malnutrition and
-hunger on a local and global level.
-
-We provide education by giving free lectures and slideshows titled “The World
-Hunger Exhibition,” in schools, libraries, and other public venues as well as
-utilizing social media channels and the corporation's website to provide facts,
-statistics, and other related data on causes, current efforts and solutions to
-eradicating chronic malnutrition and hunger.
-
-Our programs include sending out ambassadors to raise social consciousness
-about the cause on a local and global level, and to hold fundraising events in
-order to provide immediate relief and assistance to those suffering from
-chronic malnutrition and hunger regardless of their race, ethnicity, or
-religion.
-
-To maximize our impact on current efforts, we may seek to collaborate with
-other non-profit organizations which fall under the 501(c) (3) section of the
-internal revenue code and are operated exclusively for educational and
-charitable purposes.
-
-At times, per the discretion of the board of directors, we may provide
-internships or volunteer opportunities which shall provide opportunities for
-involvement in said activities and programs in order to have a greater impact
-for change.
--->
-
 ### 2.02 Powers
 
 The corporation shall have the power, directly or indirectly, alone or in
