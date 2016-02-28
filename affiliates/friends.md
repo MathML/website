@@ -15,6 +15,7 @@ You're awesome! Special thanks to our current (7th November 2015) friends:
 department, Université Paris-Sud, Université Paris-Saclay, France
 *	[Norman Meuschke](http://www.meuschke.org) (Researcher at the Information Science Group in the Department of Computer and Information Science at the University of Konstanz, Germany)
 * [Bruce Miller](http://math.nist.gov/~BMiller/) (Software Developer/Architect in the Applied and Computational Mathematics Division at National Institute of Standards and Technology, Gaithersburg, MD, USA)
+* [Jim Pitman](http://www.stat.berkeley.edu/users/pitman/) (Professor of Statistics and Mathematics, University of California, Berkeley, USA.)
 *	[Franz-Josef Schmitt](http://www.uniwind.org/schmitt) (PostDoc at TU Berlin, researcher in bioenergetics, teaching mathematics and chemistry)
 *	[Abdou Youssef](http://www.seas.gwu.edu/~ayoussef/) (Professor of Computer Science at the George Washington University, USA.)
 * Hang Yuan (2nd year computer science student at Jacobs University Bremen)
