@@ -66,26 +66,26 @@ Association. They shall get the following benefits:
 ### MathML Sponsors
 
 MathML Sponsors are companies or organizations willing to advance the
-mission of the MathML manifesto by making an annual contribution to the
+mission of the MathML manifesto by making an annual financial contribution to the
 MathML project. MathML Sponsors are nominated as an affiliate for a
 duration of one year renewable. They shall get the following benefits,
 according to their contribution level:
 
-1. Bronze MathML Sponsor (annual contribution: 128$ or more)
+1. Bronze MathML Sponsor (annual financial contribution: 128$ or more)
    - use of the term "Bronze MathML Sponsor" in corporate communications
    - name displayed on the website of the MathML Association in the list of
      "MathML Sponsors" together with a link to their website
    - special announcement as a new "MathML Sponsor" on the MathML Association
      news feed, with a short introduction to their activities
 
-2. Silver MathML Sponsor (annual contribution: 512$ or more)
+2. Silver MathML Sponsor (annual financial contribution: 512$ or more)
    - all the benefits of the Bronze Sponsor plus
    - use of the term "Silver MathML Sponsor" in corporate communications
    - small logo displayed on the website of the MathML Association in the list
      of "MathML Sponsors" together with a link to their website
    - opportunity to send one representative to the Advisory Board
 
-3. Gold MathML Sponsor (annual contribution: 1024$ or more)
+3. Gold MathML Sponsor (annual financial contribution: 1024$ or more)
    - all the benefits of the Bronze and Silver Sponsors plus
    - use of the term "Gold MathML Sponsor" in corporate communications
    - big logo displayed on the website of the MathML Association in the list
