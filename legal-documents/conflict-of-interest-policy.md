@@ -103,7 +103,8 @@ if a conflict of interest exists.
 1.  An interested person may make a presentation at the governing board or
     committee meeting, but after the presentation, he/she shall leave the
     meeting during the discussion of, and the vote on, the transaction or
-    arrangement involving the possible conflict of interest.
+    arrangement involving the possible conflict of interest. By no means
+    shall he/she influence improperly the deliberation of that vote.
 
 2.  The chairperson of the governing board or committee shall, if appropriate,
     appoint a disinterested person or committee to investigate alternatives to
@@ -173,34 +174,16 @@ powers shall contain:
 
 ## ARTICLE VI - ANNUAL STATEMENTS
 
-Each director, principal officer and member of a committee with governing board
-delegated powers shall annually sign a statement which affirms such person:
-
-1.  Has received a copy of the conflicts of interest policy,
-
-2.  Has read and understands the policy,
-
-3.  Has agreed to comply with the policy, and
-
-4.  Understands that the corporation is charitable and in order to maintain its
-    federal tax exemption it must engage primarily in activities which
-    accomplish one or more of its tax-exempt purposes.
+Prior to their initial election or appointment, and annually thereafter,
+directors and officers shall complete, sign and submit to the
+secretary of the corporation a written statement identifying, to the best of
+their knowledge, any potential conflict of interest.
 
 ## ARTICLE VII - PERIODIC REVIEWS
 
-To ensure the corporation operates in a manner consistent with charitable
-purposes and does not engage in activities that could jeopardize its tax-exempt
-status, periodic reviews shall be conducted. The periodic reviews shall, at a
-minimum, include the following subjects:
-
-1.  Whether compensation arrangements and benefits are reasonable, based on
-    competent survey information and the result of arm's length bargaining.
-
-2.  Whether partnerships, joint ventures, and arrangements with management
-    corporations conform to the corporation's written policies, are properly
-    recorded, reflect reasonable investment or payments for goods and services,
-    further charitable purposes and do not result in inurnment, impermissible
-    private benefit or in an excess benefit transaction.
+The board will, on an ongoing basis, collect information about conflict of
+interests in transactions with the corporation and will act in accordance with
+the conflict of interest policy to remedy or eliminate them.
 
 ## ARTICLE VIII - USE OF OUTSIDE EXPERTS
 

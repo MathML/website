@@ -16,6 +16,8 @@ The goals of the MathML association are:
   to people with disabilities.
 * Usage of the MathML language to publish educational, technical and scientific
   content in Web sites, ebooks or Web apps.
+* Other developmental and promotional activities to further the dissemination
+  of mathematical content in Web sites, ebooks or Web apps.
 
 For more details, take a look at our [Manifesto](/legal-documents/manifesto.html).
 
