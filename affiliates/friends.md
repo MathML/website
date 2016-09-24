@@ -11,6 +11,7 @@ You're awesome! Special thanks to our current (7th November 2015) friends:
 *	[Howard Cohl](http://www.nist.gov/itl/math/msg/howard-s-cohl.cfm) (Mathematician in the Applied and Computational Mathematics Division at the National Institute of Standards and Technology, Gaithersburg, MD, USA)
 *	Adrian Fellhauer (Student of mathematics at Technical University Munich)
 *	[Bela Gipp](http://www.gipp.com) (Professor for Information Science in the Department of Computer and Information Science at the University of Konstanz, Germany)
+* [Felix Hamborg](https://www.isg.uni-konstanz.de/people/felix-hamborg) (Researcher at the Information Science Group in the Department of Computer and Information Science at the University of Konstanz, Germany)
 * [Samuel Lelièvre](http://www.math.u-psud.fr/~lelievre) Maître de conférences in Mathematics, Orsay Math
 department, Université Paris-Sud, Université Paris-Saclay, France
 *	[Norman Meuschke](http://www.meuschke.org) (Researcher at the Information Science Group in the Department of Computer and Information Science at the University of Konstanz, Germany)
