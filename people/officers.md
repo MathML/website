@@ -5,9 +5,6 @@ officers:
   - name: Michael Kohlhase
     role: President
     email: president
-  - name: Frédéric Wang
-    role: Vice-President
-    email: vice-president
   - name: Deyan Ginev
     role: Secretary
     email: secretary
