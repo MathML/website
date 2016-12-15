@@ -18,6 +18,7 @@ department, Université Paris-Sud, Université Paris-Saclay, France
 * [Bruce Miller](http://math.nist.gov/~BMiller/) (Software Developer/Architect in the Applied and Computational Mathematics Division at National Institute of Standards and Technology, Gaithersburg, MD, USA)
 * [Jim Pitman](http://www.stat.berkeley.edu/users/pitman/) (Professor of Statistics and Mathematics, University of California, Berkeley, USA.)
 *	[Franz-Josef Schmitt](http://www.uniwind.org/schmitt) (PostDoc at TU Berlin, researcher in bioenergetics, teaching mathematics and chemistry)
+* [Frédéric Wang](http://frederic-wang.fr/) (Igalia developer)
 *	[Abdou Youssef](http://www.seas.gwu.edu/~ayoussef/) (Professor of Computer Science at the George Washington University, USA.)
 * Hang Yuan (2nd year computer science student at Jacobs University Bremen)
 
