@@ -2,34 +2,36 @@
 layout: page
 title: Board of Directors
 directors:
-- name: Deyan Ginev
+- name: Deyan Ginev (Secretary)
   description: Deyan Ginev is pursuing a PhD in Computer Science at Jacobs University Bremen, with a focus on semantic enrichment of TeX formulas into Content MathML. He is also a core developer for LaTeXML, Authorea and PlanetMath.
   photo: img/people/ginev.deyan.jpg
   email:
   github: dginev
   twitter:
   website:
-- name: Michael Kohlhase
-  description: Dr. Michael Kohlhase is professor for Computer Science at Jacobs University Bremen. His research interests range from automated reasoning to eLearning via natural language semantics and the Semantic Web.
+- name: Michael Kohlhase (President)
+  description: Dr. Michael Kohlhase is professor for Computer Science at FAU Erlangen-Nürnberg. His research interests range from automated reasoning to eLearning via natural language semantics and the Semantic Web.
   photo: img/people/kohlhase.michael.jpg
   email:
   github: kohlhase
   twitter:
   website:
-- name: Moritz Schubotz
+- name: Moritz Schubotz (Friends Officer)
   description: Moritz Schubotz alias Physikerwelt is research associate at Technische Universität Berlin. His research vision is to find instantiations of mathematical concepts independent of the concrete representation in huge corpora of human readable documents.
   photo: img/people/schubotz.moritz.jpg
   email:
   github: physikerwelt
   twitter:
   website:
-- name: Raniere Silva
+- name: Raniere Silva (Treasuere)
   description: Raniere Silva holds a BSc in applied mathematics from University of Campinas and is involved with MathML as an enthusiast. He is also a core developer for Software Carpentry.
   photo: img/people/silva.raniere.jpg
   email: raniere@ime.unicamp.br
   github: r-gaia-cs
   twitter: rgaiacs
   website: http://rgaiacs.com
+
+The position of vice president is vacant since early 2016. 
 ---
 
 {% for people in page.directors %}
