@@ -12,10 +12,10 @@ directors:
 - name: Michael Kohlhase (President)
   description: Dr. Michael Kohlhase is professor for Computer Science at FAU Erlangen-Nürnberg. His research interests range from automated reasoning to eLearning via natural language semantics and the Semantic Web.
   photo: img/people/kohlhase.michael.jpg
-  email:
+  email: michael.kohlhase@fau.de
   github: kohlhase
   twitter:
-  website:
+  website: http://kwarc.info/kohlhase
 - name: Moritz Schubotz (Friends Officer)
   description: Moritz Schubotz alias Physikerwelt is research associate at Technische Universität Berlin. His research vision is to find instantiations of mathematical concepts independent of the concrete representation in huge corpora of human readable documents.
   photo: img/people/schubotz.moritz.jpg
