@@ -12,6 +12,7 @@ board meetings are open to the public and everybody is welcome to attend them.
 
 * [2016-10-25](board-2016-10-25.html)
 * [2016-01-07](board-2016-01-07.html)
+* [2015-11-30](board-2015-11-30.html)
 * [2015-10-28](board-2015-10-28.html)
 * [2015-09-18](board-2015-09-18.html)
 * [2015-08-05](board-2015-08-05.html)
