@@ -30,9 +30,9 @@ directors:
   github: r-gaia-cs
   twitter: rgaiacs
   website: http://rgaiacs.com
-
-The position of vice president is vacant since early 2016. 
 ---
+
+  The position of vice president is vacant since early 2016.
 
 {% for people in page.directors %}
 <div class="people">
