@@ -16,7 +16,7 @@ directors:
   github: kohlhase
   twitter:
   website: http://kwarc.info/kohlhase
-- name: Moritz Schubotz (Friends Officer)
+- name: Moritz Schubotz (Vice-President; Friends Officer)
   description: Moritz Schubotz alias Physikerwelt is research associate at Technische Universität Berlin. His research vision is to find instantiations of mathematical concepts independent of the concrete representation in huge corpora of human readable documents.
   photo: img/people/schubotz.moritz.jpg
   email:
@@ -31,8 +31,6 @@ directors:
   twitter: rgaiacs
   website: http://rgaiacs.com
 ---
-
-  The position of vice president is vacant since early 2016.
 
 {% for people in page.directors %}
 <div class="people">

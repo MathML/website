@@ -5,6 +5,9 @@ officers:
   - name: Michael Kohlhase
     role: President
     email: president
+  - name: Moritz Schubotz
+    role: Vice-President; Friends Officer
+    email: vice-president
   - name: Deyan Ginev
     role: Secretary
     email: secretary

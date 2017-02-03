@@ -10,6 +10,7 @@ future actions for the MathML Association and vote for important decisions.
 You may also read [the wiki page with agendas for the board meetings](https://github.com/MathML/website/wiki#agendas-of-board-meetings). In general,
 board meetings are open to the public and everybody is welcome to attend them.
 
+* [2017-01-31](board-2017-01-31.html)
 * [2016-10-25](board-2016-10-25.html)
 * [2016-01-07](board-2016-01-07.html)
 * [2015-11-30](board-2015-11-30.html)
