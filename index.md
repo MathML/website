@@ -35,7 +35,6 @@ For more details, take a look at our [Manifesto](/legal-documents/manifesto.html
 </td>
 <td style="width:40%;">
 <time datetime="{{ post.date | date_to_xmlschema }}" class="post-time">{{ post.date | date: "%d %b %Y" }}</time>{% if post.modified %}{% if modifiedtime != posttime %} and <code>last modified on <time datetime="{{ post.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.modified | date: "%d %b %Y" }}</time></code>{% endif %}{% endif %}
-</div>
 </td>
 {% endfor %}
 <tbody>
