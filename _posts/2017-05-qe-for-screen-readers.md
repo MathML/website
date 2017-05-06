@@ -1,3 +1,10 @@
+---
+layout: post
+title: "MathML Accessibility via Aria Labels: a Practice Test"
+category:
+tags: 
+---
+
 # MathML Accessibility via Aria Labels: a Practice Test
 ## Daniel Hajas, Michael Kohlhase, Ulrich Rabenstein
 
